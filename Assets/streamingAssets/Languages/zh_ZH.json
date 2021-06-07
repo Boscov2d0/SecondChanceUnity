@@ -1,0 +1,1182 @@
+﻿{
+  "items": [
+    {
+      "key": "StartGame",
+      "value": "选择故事"
+    },
+    {
+      "key": "Rules",
+      "value": "游戏规则"
+    },
+    {
+      "key": "Exit",
+      "value": "退出"
+    },
+    {
+      "key": "LicenseText",
+      "value": "该游戏基于 Pegasus Spiele GmbH 的棋盘游戏 – “Второй шанс День сакуры” 和 “Второй шанс Смерть музыканта”。原名 “Undo:Cherry Blossom Festival” 和 “Undo: Blood in the gutter”。此游戏未经 © 2020Pegasus Spiele GmbH的许可，德国，www.pegasus.de，与上述游戏不同。这个游戏不追求任何商业目的。在俄罗斯联邦、亚美尼亚、白俄罗斯、哈萨克斯坦、吉尔吉斯斯坦和乌克兰共和国境内的独家经销商：LLC  “Настольные игры - Стиль Жизни”。棋盘游戏制造商：LLC “Настольные игры - Стиль Жизни”，俄罗斯，莫斯科，121096， ul。 2 Filevskaya 7，bldg.6， 1楼层，房间 6A 三。电话: +7 495 510 0539，mail@lifestyleltd.ru，www.LifeStyleLtd.tu。"
+    },
+    {
+      "key": "HelloStory",
+      "value": "你是命运的创造者。从碎片中收集一个人的过去，你必须了解他的命运并防止死亡。"
+    },
+    {
+      "key": "RulePage1",
+      "value": "亲人的死亡是一个可怕的悲剧，其只带来悲伤和空虚。\n你是命运的创造者。你能阻止时间的流逝，并为了救别人的命与给他们良机而移动死者生命中的各种时刻。你只能影响短暂的时刻，但你弄的谨慎干预应该足够了。这样过去会改变，而死者命运的方向也改变。"
+    },
+    {
+      "key": "RulePage2",
+      "value": "首先你必须找出死亡的情况，然后试试阻止其发生。\n一共有13张故事卡。其中有一张你要打开。除这张卡外，游戏中你只能打开10张卡。"
+    },
+    {
+      "key": "RulePage3",
+      "value": "故事卡的左上角写着日期、地点以及发生过的事情。"
+    },
+    {
+      "key": "RulePage4",
+      "value": "故事卡的左下角写着三个改变过去的方法。如果你把过去变得更好，你就得到一二分；如果你使过去变得更糟，你就减分。如果你什么都没有改变，那你让死者再重复他的命运，并获得0分。 你只能选择一次，所以要注意选择。"
+    },
+    {
+      "key": "RulePage5",
+      "value": "可以使用位于本故事卡右上部的提示卡。为了查看提示，请单击图像。但请注意，游戏中你只能打开5张提示卡。"
+    },
+    {
+      "key": "RulePage6",
+      "value": "故事卡的右下部有一个关闭故事卡的按钮。"
+    },
+    {
+      "key": "RulePage7",
+      "value": "这是您阅读完了故事卡的样子。 为了打开它，请再次单击本卡。"
+    },
+    {
+      "key": "RulePage8",
+      "value": "每个故事卡上都有日期和地点。"
+    },
+    {
+      "key": "RulePage9",
+      "value": "在这里写着你还可以打开多少故事卡。"
+    },
+    {
+      "key": "RulePage10",
+      "value": "在这里写着你还可以打开多少提示卡。"
+    },
+    {
+      "key": "RulePage11",
+      "value": "打开和关闭音乐由这两个按钮负责。"
+    },
+    {
+      "key": "RulePage12",
+      "value": "使用此按钮，您可以结束游戏并转到菜单。"
+    },
+    {
+      "key": "RulePage13",
+      "value": "当你没有故事卡时，游戏将结束。 当游戏结束时，游戏会自动计算你的积分，并告诉你达到什么结果。\n\n祝你玩得愉快。"
+    },
+
+
+
+
+
+    {
+      "key": "MainMenuButton",
+      "value": "菜单"
+    },
+    {
+      "key": "BackButton",
+      "value": "上一页"
+    },
+    {
+      "key": "NextButton",
+      "value": "下一页"
+    },
+    {
+      "key": "SacuraMapInfo",
+      "value": "你马上去现代日本。樱木开花时的死亡。。。已经来不及纠正错误。。。还是有点希望？"
+    },
+    {
+      "key": "MusicianMapInfo",
+      "value": "你要去20年代的芝加哥。 泰迪熊躺在血泊旁边。。。追求幸福应该以死亡结束吗？"
+    },
+    {
+      "key": "CountOfEvidence",
+      "value": "还剩的故事卡"
+    },
+    {
+      "key": "CountOfHint",
+      "value": "还剩的提示卡"
+    },
+    {
+      "key": "HintQuestion",
+      "value": "看提示吗？"
+    },
+    {
+      "key": "NegativeResult",
+      "value": "越弄越糟"
+    },
+    {
+      "key": "PositiveResult",
+      "value": "成功地改变了过去"
+    },
+    {
+      "key": "NeitralResult",
+      "value": "什么都没改变"
+    },
+    {
+      "key": "VeryBadEnd",
+      "value": "糟糕了，你把事情搞坏了，使死亡更加不可避免。"
+    },
+    {
+      "key": "BadEnd",
+      "value": "你走对的路，但你不能欺骗命运。"
+    },
+    {
+      "key": "NoChangeEnd",
+      "value": "你接近成功，但命运是必然的。"
+    },
+    {
+      "key": "NormalEnd",
+      "value": "恭喜！ 你真的成功地改变了过去！"
+    },
+    {
+      "key": "GoodEnd",
+      "value": "你弄清楚故事，而轻松地防止死亡。"
+    },
+    {
+      "key": "VeryGoodEnd",
+      "value": "这简直是不可思议的！ 你不仅征服了命运，避免了死亡，也使生活更美好。"
+    },
+    {
+      "key": "CantReadStoryText",
+      "value": "为了看故事你需要更多分"
+    },
+    {
+      "key": "ReadStoryButton",
+      "value": "看故事"
+    },
+    {
+      "key": "PlayAgainButton",
+      "value": "再玩一次"
+    },
+    {
+      "key": "ReadImportantDecisionsButton",
+      "value": "看重要决定"
+    },
+
+
+
+
+
+
+    {
+      "key": "Sakura1FrontCardTime",
+      "value": "60年前"
+    },
+    {
+      "key": "Sakura1FrontCardPlace",
+      "value": "日本广岛"
+    },
+    {
+      "key": "Sakura1FrontCardDate",
+      "value": "1940年3月1日\n晚夜"
+    },
+    {
+      "key": "Sakura1BackCard",
+      "value": "60年前\n日本广岛\n1940年3月1日\n晚夜\n\n四五岁的男孩躺着在床上睡不着。他很伤心，因为他的父亲由于重要出差不能回家过樱花节。突然，从隔壁房间传来妈妈的笑声，然后男孩听到男人的声音。"
+    },
+    {
+      "key": "Sakura2FrontCardTime",
+      "value": "55年前"
+    },
+    {
+      "key": "Sakura2FrontCardPlace",
+      "value": "日本广岛"
+    },
+    {
+      "key": "Sakura2FrontCardDate",
+      "value": "1945年8月3日\n黄昏在陶艺车间"
+    },
+    {
+      "key": "Sakura2BackCard",
+      "value": "55年前\n日本广岛\n1945年8月3日\n黄昏在陶艺车间\n\n“小心！” - 父亲对儿子大喊，而儿子颤抖着惊恐地看着碎片。“保护我们的花瓶如保护父母的心一样。” 然后他严厉地补充道：“明天你叔叔带你奶奶家去。那里更安全。现在把花瓶完整无缺地送到你的母亲！”"
+    },
+    {
+      "key": "Sakura3FrontCardTime",
+      "value": "50年前"
+    },
+    {
+      "key": "Sakura3FrontCardPlace",
+      "value": "日本,\n安藝太田町"
+    },
+    {
+      "key": "Sakura3FrontCardDate",
+      "value": "1950年6月12日\n清晨"
+    },
+    {
+      "key": "Sakura3BackCard",
+      "value": "50年前\n日本,\n安藝太田町\n1950年6月12日\n清晨\n\n一个带着背包的男孩站在他的奶奶前面。 她伸手给他包：“太郎，你就拿这件衣服。这是悲剧发生一个月前我给你父亲做的衣服。可惜，我已经来不及送给他。但是，我觉得这件衣服马上就适合你。"
+    },
+    {
+      "key": "Sakura4FrontCardTime",
+      "value": "35年前"
+    },
+    {
+      "key": "Sakura4FrontCardPlace",
+      "value": "日本冈山"
+    },
+    {
+      "key": "Sakura4FrontCardDate",
+      "value": "1965年5月23日\n晚上在医院"
+    },
+    {
+      "key": "Sakura4BackCard",
+      "value": "35年前\n日本冈山\n1965年5月23日\n晚上在医院\n\n穿着医院礼服，男人坐在他妻子床边。她说，“这样更好。她会成我们孩子的好母亲。” “我不能。 特别是当你。。。”男人号啕痛哭了。 从走廊传来嘈杂声。"
+    },
+    {
+      "key": "Sakura5FrontCardTime",
+      "value": "一个月前"
+    },
+    {
+      "key": "Sakura5FrontCardPlace",
+      "value": "日本冈山"
+    },
+    {
+      "key": "Sakura5FrontCardDate",
+      "value": "2000年2月4日\n15:08"
+    },
+    {
+      "key": "Sakura5BackCard",
+      "value": "一个月前\n日本冈山\n2000年2月4日\n15:08\n\n药剂师看着一个绝望的六十岁的女人。她刚刚说清楚自己的问题。 “别担心，托托米夫人。 你只是疲劳过度。我会给你一个补药，吃它就好。”女人点头，而紧张地打开她的钱包。"
+    },
+    {
+      "key": "Sakura6FrontCardTime",
+      "value": "一周前"
+    },
+    {
+      "key": "Sakura6FrontCardPlace",
+      "value": "日本东京"
+    },
+    {
+      "key": "Sakura6FrontCardDate",
+      "value": "2000年2月23日\n23:18"
+    },
+    {
+      "key": "Sakura6BackCard",
+      "value": "一周前\n日本东京\n2000年2月23日\n23:18\n\n一个四十多岁的女人进入房子时，整理邮件。 有一封信使她冻结了。 女人走到办公桌，打开一个里面装满很多未读邮件的抽屉。 她在看着手里那封还没拆的信。"
+    },
+    {
+      "key": "Sakura7FrontCardTime",
+      "value": "3天前"
+    },
+    {
+      "key": "Sakura7FrontCardPlace",
+      "value": "日本大坂"
+    },
+    {
+      "key": "Sakura7FrontCardDate",
+      "value": "2000年2月27日\n20:39"
+    },
+    {
+      "key": "Sakura7BackCard",
+      "value": "3天前\n日本大坂\n2000年2月27日\n20:39\n\n“你怎么会对他这么好？ 你打算送给他礼物吗？母亲去世以后他干出那么多事，你知道吗？” - 从听筒传来愤怒的女性声音。 她的哥哥在手中紧张地旋转名片，并试图让她平静下来。 “请听我的，由纪，已经过了不少年。 而且现在是樱花节”可是女人已经挂上了电话。"
+    },
+    {
+      "key": "Sakura8FrontCardTime",
+      "value": "在他死的那天早上"
+    },
+    {
+      "key": "Sakura8FrontCardPlace",
+      "value": "日本冈山"
+    },
+    {
+      "key": "Sakura8FrontCardDate",
+      "value": "2000年3月1日\n07:12"
+    },
+    {
+      "key": "Sakura8BackCard",
+      "value": "在他死的那天早上\n日本冈山\n2000年3月1日\n07:12\n\n六十多岁的男人犹豫不决地站在衣柜前面。 从厨房传来女人声音：“太郎，千万不要误机。 你知道这对你有多重要啊！”"
+    },
+    {
+      "key": "Sakura9FrontCardTime",
+      "value": "10小时前"
+    },
+    {
+      "key": "Sakura9FrontCardPlace",
+      "value": "日本高松"
+    },
+    {
+      "key": "Sakura9FrontCardDate",
+      "value": "2000年3月1日\n09:55在机场"
+    },
+    {
+      "key": "Sakura9BackCard",
+      "value": "10小时前\n日本高松\n2000年3月1日\n09:55在机场\n\n穿制服的年轻人正在大力推动一辆清洁车，人太多了，他挤不进去。 他很紧张，因为他一点移动也没有，年轻人心里恼怒起来。他紧紧地挤着小车的把手，继续推动。突然，一个穿着西装的男人非常焦急地接近他。"
+    },
+    {
+      "key": "Sakura10FrontCardTime",
+      "value": "4小时前"
+    },
+    {
+      "key": "Sakura10FrontCardPlace",
+      "value": "日本冈山"
+    },
+    {
+      "key": "Sakura10FrontCardDate",
+      "value": "2000年3月1日\n15:27"
+    },
+    {
+      "key": "Sakura10BackCard",
+      "value": "4小时前\n日本冈山\n2000年3月1日\n15:27\n\n一个老男人兴奋地回到自己的家。他的妻子手里抓着一封信大哭。 他试图拥抱她，但她推开他，并开始对他大喊大叫。 她从花瓶里拉出来樱花的树枝，然后把花瓶打得粉碎。 震惊的男人蹲下来，并开始拾起碎片。 女人跑出了房子。"
+    },
+    {
+      "key": "Sakura11FrontCardTime",
+      "value": "一个半小时前"
+    },
+    {
+      "key": "Sakura11FrontCardPlace",
+      "value": "日本冈山"
+    },
+    {
+      "key": "Sakura11FrontCardDate",
+      "value": "2000年3月1日\n17:57"
+    },
+    {
+      "key": "Sakura11BackCard",
+      "value": "一个半小时前\n日本冈山\n2000年3月1日\n17:57\n\n带包裹的快递员按了门铃。 窗户旁边的樱花树上缺了几根树枝。 没有人打开门，快递员犹豫不决地停下来。"
+    },
+    {
+      "key": "Sakura12FrontCardTime",
+      "value": "死亡的那一刻"
+    },
+    {
+      "key": "Sakura12FrontCardPlace",
+      "value": "日本冈山"
+    },
+    {
+      "key": "Sakura12FrontCardDate",
+      "value": "2000年3月1日\n19:27"
+    },
+    {
+      "key": "Sakura12BackCard",
+      "value": "死亡的那一刻\n日本冈山\n2000年3月1日\n19:27\n\n客厅的地板上有六十多岁男人的尸体。旁边有一个破碎的酒杯和一个坐轮椅的年轻女子的照片。 死者穿着老式的蓝色西装。身体上没有明显的伤害，但眼睛上面有难以察觉的疤痕。 在他的西装口袋里的电话响了，铃声是“月光奏鸣曲”。桌子上有几枝樱花树枝。"
+    },
+    {
+      "key": "Sakura13FrontCardTime",
+      "value": "一周后"
+    },
+    {
+      "key": "Sakura13FrontCardPlace",
+      "value": "日本广岛"
+    },
+    {
+      "key": "Sakura13FrontCardDate",
+      "value": "2000年3月8日\n14:32"
+    },
+    {
+      "key": "Sakura13BackCard",
+      "value": "一周后\n日本广岛\n2000年3月8日\n14:32\n\n葬礼队伍聚集在死者的坟墓。四十多岁的女人哭着站在大家面前，她手里有一封信。 在后排有两个女人在耳语。"
+    },
+
+
+
+    {
+      "key": "SakuraStory1CardText",
+      "value": "60年前\n日本广岛\n1940年3月1日\n晚夜\n\n四五岁的男孩躺着在床上睡不着。他很伤心，因为他的父亲由于重要出差不能回家过樱花节。突然，从隔壁房间传来妈妈的笑声，然后男孩听到男人的声音。"
+    },
+    {
+      "key": "SakuraStory1CardQuestion",
+      "value": "你确定他："
+    },
+    {
+      "key": "SakuraStory1CardAnswerA",
+      "value": "a) 翻身以后终于睡着了"
+    },
+    {
+      "key": "SakuraStory1CardAnswerB",
+      "value": "b) 叫妈妈"
+    },
+    {
+      "key": "SakuraStory1CardAnswerC",
+      "value": "c) 站起来去看看"
+    },
+    {
+      "key": "SakuraStory1CardHintText",
+      "value": "男孩听到男人说：“太郎睡着了吗？ 我们可以玩得开心。”"
+    },
+    {
+      "key": "SakuraStory2CardText",
+      "value": "55年前\n日本广岛\n1945年8月3日\n黄昏在陶艺车间\n\n“小心！” - 父亲对儿子大喊，而儿子颤抖着惊恐地看着碎片。“保护我们的花瓶如保护父母的心一样。” 然后他严厉地补充道：“明天你叔叔带你奶奶家去。那里更安全。现在把花瓶完整无缺地送到你的母亲！”"
+    },
+    {
+      "key": "SakuraStory2CardQuestion",
+      "value": "你确定儿子:"
+    },
+    {
+      "key": "SakuraStory2CardAnswerA",
+      "value": "a) 乖乖地把花瓶送到他的母亲"
+    },
+    {
+      "key": "SakuraStory2CardAnswerB",
+      "value": "b) 没带花瓶就走了"
+    },
+    {
+      "key": "SakuraStory2CardAnswerC",
+      "value": "c) 愤怒地叫喊，并把花瓶打得粉碎"
+    },
+    {
+      "key": "SakuraStory2CardHintText",
+      "value": "儿子心里沸腾。 他的眼睛上面有一道伤疤，这是他父亲严厉的标志。"
+    },
+    {
+      "key": "SakuraStory3CardText",
+      "value": "50年前\n日本,\n安藝太田町\n1950年6月12日\n清晨\n\n一个带着背包的男孩站在他的奶奶前面。 她伸手给他包：“太郎，你就拿这件衣服。这是悲剧发生一个月前我给你父亲做的衣服。可惜，我已经来不及送给他。但是，我觉得这件衣服马上就适合你。"
+    },
+    {
+      "key": "SakuraStory3CardQuestion",
+      "value": "你确定他："
+    },
+    {
+      "key": "SakuraStory3CardAnswerA",
+      "value": "a) 接受包裹"
+    },
+    {
+      "key": "SakuraStory3CardAnswerB",
+      "value": "b) 不接受包裹"
+    },
+    {
+      "key": "SakuraStory3CardAnswerC",
+      "value": "c) 立即穿上西装"
+    },
+    {
+      "key": "SakuraStory3CardHintText",
+      "value": "他的背包里小心地包着一个罕见的花瓶，这是他父亲去世以后留下唯一的东西。"
+    },
+    {
+      "key": "SakuraStory4CardText",
+      "value": "35年前\n日本冈山\n1965年5月23日\n晚上在医院\n\n穿着医院礼服，男人坐在他妻子床边。她说，“这样更好。她会成我们孩子的好母亲。” “我不能。 特别是当你。。。”男人号啕痛哭了。 从走廊传来嘈杂声。"
+    },
+    {
+      "key": "SakuraStory4CardQuestion",
+      "value": "你确定："
+    },
+    {
+      "key": "SakuraStory4CardAnswerA",
+      "value": "a) 男人平静下来，而答应妻子保守秘密"
+    },
+    {
+      "key": "SakuraStory4CardAnswerB",
+      "value": "b) 他们谈论的女人走进房间"
+    },
+    {
+      "key": "SakuraStory4CardAnswerC",
+      "value": "c) 男人出身着到走廊去"
+    },
+    {
+      "key": "SakuraStory4CardHintText",
+      "value": "在走廊里一个女孩和她的弟弟玩一玩。 “以后我问爸爸妈妈有什么问题”，女孩自信地低声说。"
+    },
+    {
+      "key": "SakuraStory5CardText",
+      "value": "一个月前\n日本冈山\n2000年2月4日\n15:08\n\n药剂师看着一个绝望的六十岁的女人。她刚刚说清楚自己的问题。 “别担心，托托米夫人。 你只是疲劳过度。我会给你一个补药，吃它就好。”女人点头，而紧张地打开她的钱包。"
+    },
+    {
+      "key": "SakuraStory5CardQuestion",
+      "value": "你确定药剂师给她:"
+    },
+    {
+      "key": "SakuraStory5CardAnswerA",
+      "value": "a) 安眠药"
+    },
+    {
+      "key": "SakuraStory5CardAnswerB",
+      "value": "b) 抗抑郁药"
+    },
+    {
+      "key": "SakuraStory5CardAnswerC",
+      "value": "c) 维生素"
+    },
+    {
+      "key": "SakuraStory5CardHintText",
+      "value": "她的钱包有樱花形状的图案。 里面有空的抗抑郁药的瓶子。"
+    },
+    {
+      "key": "SakuraStory6CardText",
+      "value": "一周前\n日本东京\n2000年2月23日\n23:18\n\n一个四十多岁的女人进入房子时，整理邮件。 有一封信使她冻结了。 女人走到办公桌，打开一个里面装满很多未读邮件的抽屉。 她在看着手里那封还没拆的信。"
+    },
+    {
+      "key": "SakuraStory6CardQuestion",
+      "value": "你确定她："
+    },
+    {
+      "key": "SakuraStory6CardAnswerA",
+      "value": "a) 把未拆封的信放在抽屉里"
+    },
+    {
+      "key": "SakuraStory6CardAnswerB",
+      "value": "b) 打开这封信并开始阅读"
+    },
+    {
+      "key": "SakuraStory6CardAnswerC",
+      "value": "c) 不读这封信，但是写自己的信"
+    },
+    {
+      "key": "SakuraStory6CardHintText",
+      "value": "抽屉里有一张照片：一个坐轮椅的女人与她腿上坐的一个女孩。 女孩手里拿着一只毛绒兔子。女人旁边是一个小男孩和一个男人。 男人的脸从照片上被撕下。"
+    },
+    {
+      "key": "SakuraStory7CardText",
+      "value": "3天前\n日本大坂\n2000年2月27日\n20:39\n\n“你怎么会对他这么好？ 你打算送给他礼物吗？母亲去世以后他干出那么多事，你知道吗？” - 从听筒传来愤怒的女性声音。 她的哥哥在手中紧张地旋转名片，并试图让她平静下来。 “请听我的，由纪，已经过了不少年。 而且现在是樱花节”可是女人已经挂上了电话。"
+    },
+    {
+      "key": "SakuraStory7CardQuestion",
+      "value": "你确定男人在搜索栏上键入:"
+    },
+    {
+      "key": "SakuraStory7CardAnswerA",
+      "value": "a)“威士忌”"
+    },
+    {
+      "key": "SakuraStory7CardAnswerB",
+      "value": "b）“香烟“"
+    },
+    {
+      "key": "SakuraStory7CardAnswerC",
+      "value": "c) “自杀“"
+    },
+    {
+      "key": "SakuraStory7CardHintText",
+      "value": "名片上面写着：太郎•托托米，冈山市。"
+    },
+    {
+      "key": "SakuraStory8CardText",
+      "value": "在他死的那天早上\n日本冈山\n2000年3月1日\n07:12\n\n六十多岁的男人犹豫不决地站在衣柜前面。 从厨房传来女人声音：“太郎，千万不要误机。 你知道这对你有多重要啊！”"
+    },
+    {
+      "key": "SakuraStory8CardQuestion",
+      "value": "你确定他选择穿:"
+    },
+    {
+      "key": "SakuraStory8CardAnswerA",
+      "value": "a) 新的灰色西装"
+    },
+    {
+      "key": "SakuraStory8CardAnswerB",
+      "value": "b) 老蓝西装"
+    },
+    {
+      "key": "SakuraStory8CardAnswerC",
+      "value": "c) 舒适的衣服"
+    },
+    {
+      "key": "SakuraStory8CardHintText",
+      "value": "男人脸上出汗。 他又想穿上他父亲的蓝色西装。"
+    },
+    {
+      "key": "SakuraStory9CardText",
+      "value": "10小时前\n日本高松\n2000年3月1日\n09:55在机场\n\n穿制服的年轻人正在大力推动一辆清洁车，人太多了，他挤不进去。 他很紧张，因为他一点移动也没有，年轻人心里恼怒起来。他紧紧地挤着小车的把手，继续推动。突然，一个穿着西装的男人非常焦急地接近他。"
+    },
+    {
+      "key": "SakuraStory9CardQuestion",
+      "value": "你确定他："
+    },
+    {
+      "key": "SakuraStory9CardAnswerA",
+      "value": "a) 挡住男人的去路"
+    },
+    {
+      "key": "SakuraStory9CardAnswerB",
+      "value": "b) 停下来，而表示愿意帮忙"
+    },
+    {
+      "key": "SakuraStory9CardAnswerC",
+      "value": "c) 叫着“小心”全速地撞到男人"
+    },
+    {
+      "key": "SakuraStory9CardHintText",
+      "value": "从他右口袋里的手机可以听到“月光奏鸣曲”。 左边口袋里露毛绒兔子的头出来。"
+    },
+    {
+      "key": "SakuraStory10CardText",
+      "value": "4小时前\n日本冈山\n2000年3月1日\n15:27\n\n一个老男人兴奋地回到自己的家。他的妻子手里抓着一封信大哭。 他试图拥抱她，但她推开他，并开始对他大喊大叫。 她从花瓶里拉出来樱花的树枝，然后把花瓶打得粉碎。 震惊的男人蹲下来，并开始拾起碎片。 女人跑出了房子。"
+    },
+    {
+      "key": "SakuraStory10CardQuestion",
+      "value": "你确定她："
+    },
+    {
+      "key": "SakuraStory10CardAnswerA",
+      "value": "a) 留下拆的信"
+    },
+    {
+      "key": "SakuraStory10CardAnswerB",
+      "value": "b) 带着她的手机"
+    },
+    {
+      "key": "SakuraStory10CardAnswerC",
+      "value": "c) 忘了她的包"
+    },
+    {
+      "key": "SakuraStory10CardHintText",
+      "value": "信封上有口红印。"
+    },
+    {
+      "key": "SakuraStory11CardText",
+      "value": "一个半小时前\n日本冈山\n2000年3月1日\n17:57\n\n带包裹的快递员按了门铃。 窗户旁边的樱花树上缺了几根树枝。 没有人打开门，快递员犹豫不决地停下来。"
+    },
+    {
+      "key": "SakuraStory11CardQuestion",
+      "value": "你确定他："
+    },
+    {
+      "key": "SakuraStory11CardAnswerA",
+      "value": "a) 把包裹放在门边"
+    },
+    {
+      "key": "SakuraStory11CardAnswerB",
+      "value": "b) 留下一张纸条，并带包裹回去"
+    },
+    {
+      "key": "SakuraStory11CardAnswerC",
+      "value": "c) 一直按门铃"
+    },
+    {
+      "key": "SakuraStory11CardHintText",
+      "value": "从半开的窗户可以听到忧郁的音乐和男性的呜咽。"
+    },
+    {
+      "key": "SakuraStory12CardText",
+      "value": "死亡的那一刻\n日本冈山\n2000年3月1日\n19:27\n\n客厅的地板上有六十多岁男人的尸体。旁边有一个破碎的酒杯和一个坐轮椅的年轻女子的照片。 死者穿着老式的蓝色西装。身体上没有明显的伤害，但眼睛上面有难以察觉的疤痕。 在他的西装口袋里的电话响了，铃声是“月光奏鸣曲”。桌子上有几枝樱花树枝。"
+    },
+    {
+      "key": "SakuraStory12CardHintText",
+      "value": "这张照片很久的，大概是30年前拍的。 背景上一个小男孩和女孩玩一玩。"
+    },
+    {
+      "key": "SakuraStory13CardText",
+      "value": "一周后\n日本广岛\n2000年3月8日\n14:32\n\n葬礼队伍聚集在死者的坟墓。四十多岁的女人哭着站在大家面前，她手里有一封信。 在后排有两个女人在耳语。"
+    },
+    {
+      "key": "SakuraStory13CardEventsAfterDeath",
+      "value": "由于这些事件发生在死者死后，不幸的是，你在这里的行动什么都改变不了。"
+    },
+    {
+      "key": "SakuraStory13CardHintText",
+      "value": "“太可怜啊。 如果她早点原谅她的父亲，这就不会发生。”"
+    },
+    {
+      "key": "SakuraFullStoryText",
+      "value": "死者名叫托托米太郎。 当他十岁时，他的父母在广岛的轰炸中死亡。 他活了下来，因为他的父母在悲剧发生前几天把他送到奶奶。 他父母的最后回忆是破碎的花瓶和他父亲的责备。\n当他15岁时，太郎离开村子去大城市。 他的奶奶送给他一件蓝色的西装，是她曾经为他的父亲弄过的西服。\n太郎结婚了。 他的妻子病入膏肓了， 但她还生下了一个儿子和一个女儿。孩子们一直以为他们的父亲欺骗了他身患绝症的妻子，并找过新的妻子， 让他们的母亲独自死去。\n事实上， 垂死的女人问太郎娶她的朋友作妻子。她不想让孩子看到她痛苦的死亡。由于传统和文化特点他们决定什么都不告诉。\n2000年3月1日，太郎打算飞到他的女儿说实话。这些年她一直不予回信。 可惜，他偏偏误机了。 当他回到家，他的第二任妻子哭着跑了，因为她找到了一封表面太郎背叛她的信。 他们俩都不知道这封信是他女儿的报仇。\n当太郎的第二任妻子打破父亲的花瓶而离开时，太郎的心碎成了小块。他用一杯酒吃谋些药。过一会儿，太郎手里拿着他去世的第一任妻子的照片而死亡。"
+    },
+    {
+      "key": "SakuraImportantDecisionsText",
+      "value": "一个月前 - с: 当太为了自杀而寻找药丸时，但发现只有维生素的药剂师卖给他的妻子。\n一个星期前 - b: 当太郎的女儿终于读了他的信，她得知全部真情，并决定和他说话。\n三天前- с: 太郎的儿子很长时间一直担心父亲。浏览关于自杀一些网站之后，他给父亲寄了一本可以帮助他的书。看过几页后，太郎开始怀疑自己的决定。\n一个半小时前 - с: 由于快递员的坚持，太郎收到了儿子的包裹。这样他发现世界上有些人对他来说很重要。"
+    },
+
+
+
+
+
+    {
+      "key": "Musician1FrontCardTime",
+      "value": "20年前"
+    },
+    {
+      "key": "Musician1FrontCardPlace",
+      "value": "法国普瓦捷"
+    },
+    {
+      "key": "Musician1FrontCardDate",
+      "value": "1909年2月11日\n深夜"
+    },
+    {
+      "key": "Musician1BackCard",
+      "value": "20年前\n法国普瓦捷\n1909年2月11日\n深夜\n\n一名年轻女人流泪着拥抱她的孩子。女孩哭了，男孩看着地板。 突然，母亲张开双臂，严肃地看着儿子。 “你现在是家里唯一的男人了。承担责任，你一定要得到成功。 千万不要像你父亲那样死。”"
+    },
+    {
+      "key": "Musician2FrontCardTime",
+      "value": "17年前"
+    },
+    {
+      "key": "Musician2FrontCardPlace",
+      "value": "法国普瓦捷"
+    },
+    {
+      "key": "Musician2FrontCardDate",
+      "value": "1912年6月15日\n晚上"
+    },
+    {
+      "key": "Musician2BackCard",
+      "value": "17年前\n法国普瓦捷\n1912年6月15日\n晚上\n\n男孩们在城市郊区踢足球。年龄大点的男孩推年龄小点的男孩。“嘿，雅克，醒醒！你永远不会成为一位音乐家。你一定像你父亲亨利一样从屋顶上掉下来。你最好晚上跟我们一起去把风。”"
+    },
+    {
+      "key": "Musician3FrontCardTime",
+      "value": "14年前"
+    },
+    {
+      "key": "Musician3FrontCardPlace",
+      "value": "法国拉罗谢尔"
+    },
+    {
+      "key": "Musician3FrontCardDate",
+      "value": "1915年5月12日\n上午"
+    },
+    {
+      "key": "Musician3BackCard",
+      "value": "14年前\n法国拉罗谢尔\n1915年5月12日\n上午\n\n在港口，一个男孩把一艘巨大的货船指给站在他旁边的妹妹看。“我们需要潜入那里。你能作好吗？”苍白的女孩紧紧地抱着哥哥。“别担心，妈妈从天上看着我们，会帮助我们找到一个安全的地方。”"
+    },
+    {
+      "key": "Musician4FrontCardTime",
+      "value": "12年前"
+    },
+    {
+      "key": "Musician4FrontCardPlace",
+      "value": "美国纽约"
+    },
+    {
+      "key": "Musician4FrontCardDate",
+      "value": "1917年9月23日\n晚上在房间里"
+    },
+    {
+      "key": "Musician4BackCard",
+      "value": "12年前\n美国纽约\n1917年9月23日\n晚上在房间里\n\n男孩拉着苍白女孩的手，并坚持地告诉她：“玛丽，这样不能继续下去。这种空气让你感觉越来越糟。我听说，在芝加哥的薪水很高。” 她同情地看着他。“但你喜欢在这里工作。 街上的人已经来听你的了。” 旁边的餐具柜上有一张老照片。"
+    },
+    {
+      "key": "Musician5FrontCardTime",
+      "value": "2周前"
+    },
+    {
+      "key": "Musician5FrontCardPlace",
+      "value": "美国芝加哥郊区"
+    },
+    {
+      "key": "Musician5FrontCardDate",
+      "value": "1929年10月12日\n10:03"
+    },
+    {
+      "key": "Musician5BackCard",
+      "value": "2周前\n美国芝加哥郊区\n1929年10月12日\n10:03\n\n三岁的孩子躺着在婴儿床上剧烈咳嗽。 他的母亲站在门口，跟年轻人说话。“你为我做了这么多。 当时在家里，亨利的父亲失踪的时侯。我自己能搞定。”他摇摇头。 “玛丽，没关系。我会弄到钱。别担心。他很快就会好的。“ 孩子给了他一只泰迪熊，并说：”它会给你带来好运。”"
+    },
+    {
+      "key": "Musician6FrontCardTime",
+      "value": "5天前"
+    },
+    {
+      "key": "Musician6FrontCardPlace",
+      "value": "美国芝加哥"
+    },
+    {
+      "key": "Musician6FrontCardDate",
+      "value": "1929年10月21日\n05:17"
+    },
+    {
+      "key": "Musician6BackCard",
+      "value": "5天前\n美国芝加哥\n1929年10月21日\n05:17\n\n穿着尾衣的年轻人和另外两个男人站在豪华的办公室里。他们很兴奋、很紧张。身材矮小的胖男人严厉地盯着他们。“你们连这么简单的任务都没有完成？ 我要怎么办？”他点了根烟，然后指着年轻人。“而你要记住，明天你一定要把这笔钱归还。。。还别忘利息，一如既往。”"
+    },
+    {
+      "key": "Musician7FrontCardTime",
+      "value": "3天前"
+    },
+    {
+      "key": "Musician7FrontCardPlace",
+      "value": "美国芝加哥"
+    },
+    {
+      "key": "Musician7FrontCardDate",
+      "value": "1929年10月23日\n11:52"
+    },
+    {
+      "key": "Musician7BackCard",
+      "value": "3天前\n美国芝加哥\n1929年10月23日\n11:52\n\n“手拿把攥，雅克。 我会投资你的钱，几天后会翻倍。 你会还清你的债务！”带着手提箱的男人对另一个人眨眨眼，并瞥了一眼信封。雅克问道：“你确定没有风险吗？”。男人笑着点头。 “完全没有啊！”"
+    },
+    {
+      "key": "Musician8FrontCardTime",
+      "value": "2天前"
+    },
+    {
+      "key": "Musician8FrontCardPlace",
+      "value": "美国芝加哥"
+    },
+    {
+      "key": "Musician8FrontCardDate",
+      "value": "1929年10月24日\n20:38"
+    },
+    {
+      "key": "Musician8BackCard",
+      "value": "2天前\n美国芝加哥\n1929年10月24日\n20:38\n\n身材矮小的胖男人从纸刀上擦着血说。“虽然我尊重你，比尔，但是我知道小号手愚弄我们。把我的钱还给我或者给他一个很好的教训。让其他人从这种情况吸取经验教训。” 他看着比尔的新伤口。“不然下次你会失去一只眼睛。”"
+    },
+    {
+      "key": "Musician9FrontCardTime",
+      "value": "1天前"
+    },
+    {
+      "key": "Musician9FrontCardPlace",
+      "value": "美国芝加哥郊区"
+    },
+    {
+      "key": "Musician9FrontCardDate",
+      "value": "1929年10月26日\n17:18"
+    },
+    {
+      "key": "Musician9BackCard",
+      "value": "1天前\n美国芝加哥郊区\n1929年10月26日\n17:18\n\n“你做了什么？!”年轻女子看着对话者而不相信她的眼睛。 “你想让我死吗？”她的眼睛充满了泪水。 年轻人拥抱她，回答说：“我以为这是一个好主意。 你需要钱，为了让亨利好起来。”他听隔壁房间传来的声音。"
+    },
+    {
+      "key": "Musician10FrontCardTime",
+      "value": "2小时前"
+    },
+    {
+      "key": "Musician10FrontCardPlace",
+      "value": "美国芝加哥"
+    },
+    {
+      "key": "Musician10FrontCardDate",
+      "value": "1929年10月26日\n19:30"
+    },
+    {
+      "key": "Musician10BackCard",
+      "value": "2小时前\n美国芝加哥\n1929年10月26日\n19:30\n\n年轻人照镜子，以确保他的衣服是干净的。他的尾衣与鞋子已穿破的，但他对自己的外表感到满意。他被敲门声吓了一跳，但当他听到小组成员的声音时，他就平静下来。"
+    },
+    {
+      "key": "Musician11FrontCardTime",
+      "value": "7分钟前"
+    },
+    {
+      "key": "Musician11FrontCardPlace",
+      "value": "美国芝加哥"
+    },
+    {
+      "key": "Musician11FrontCardDate",
+      "value": "1929年10月26日\n21:25"
+    },
+    {
+      "key": "Musician11BackCard",
+      "value": "7分钟前\n美国芝加哥\n1929年10月26日\n21:25\n\n两个魁梧的男子站在蓝磨酒吧前。 较高的人看着他的同伙，问：“有什么计划，比尔？”"
+    },
+    {
+      "key": "Musician12FrontCardTime",
+      "value": "死亡的那一刻"
+    },
+    {
+      "key": "Musician12FrontCardPlace",
+      "value": "美国芝加哥"
+    },
+    {
+      "key": "Musician12FrontCardDate",
+      "value": "1929年10月26日\n21:32"
+    },
+    {
+      "key": "Musician12BackCard",
+      "value": "死亡的那一刻\n美国芝加哥\n1929年10月26日\n21:32\n\n二十岁左右的男人死气沉沉地躺在一个肮脏的死胡同里的地上。他沾满鲜血的衬衫上有一些弹孔。左手紧握着他的领带，好像他试图在生命耗尽时松开它。在右手有一个泰迪熊。附近酒吧的蓝色霓虹灯闪烁，使死胡同看起来更加黑暗。"
+    },
+    {
+      "key": "Musician13FrontCardTime",
+      "value": "2年后"
+    },
+    {
+      "key": "Musician13FrontCardPlace",
+      "value": "美国纽约"
+    },
+    {
+      "key": "Musician13FrontCardDate",
+      "value": "1931年10月24日\n18:21"
+    },
+    {
+      "key": "Musician13BackCard",
+      "value": "2年后\n美国纽约\n1931年10月24日\n18:21\n\n穿着黑色的二十多岁的女子走过一个报摊。 她背着五岁的孩子，他已经变得太重了。 她突然停下来，退后几步，看着晚报的头版。 “那坏蛋以200美元送刺客杀雅克，”她仇恨地看这张照片。悲痛欲绝的女人继续朝港口走去。"
+    },
+
+
+
+    {
+      "key": "MusicianStory1CardText",
+      "value": "20年前\n法国普瓦捷\n1909年2月11日\n深夜\n\n一名年轻女人流泪着拥抱她的孩子。女孩哭了，男孩看着地板。 突然，母亲张开双臂，严肃地看着儿子。 “你现在是家里唯一的男人了。承担责任，你一定要得到成功。 千万不要像你父亲那样死。"
+    },
+    {
+      "key": "MusicianStory1CardQuestion",
+      "value": "你确定男孩："
+    },
+    {
+      "key": "MusicianStory1CardAnswerA",
+      "value": "a) 拥抱他的妹妹"
+    },
+    {
+      "key": "MusicianStory1CardAnswerB",
+      "value": "b) 向母亲点头"
+    },
+    {
+      "key": "MusicianStory1CardAnswerC",
+      "value": "c) 愤怒地跑出了房间"
+    },
+    {
+      "key": "MusicianStory1CardHintText",
+      "value": "这是一个贫穷的小日工小屋。过堂风很厉害。"
+    },
+    {
+      "key": "MusicianStory2CardText",
+      "value": "17年前\n法国普瓦捷\n1912年6月15日\n晚上\n\n男孩们在城市郊区踢足球。年龄大点的男孩推年龄小点的男孩。“嘿，雅克，醒醒！你永远不会成为一位音乐家。你一定像你父亲亨利一样从屋顶上掉下来。你最好晚上跟我们一起去把风。”"
+    },
+    {
+      "key": "MusicianStory2CardQuestion",
+      "value": "你确定雅克："
+    },
+    {
+      "key": "MusicianStory2CardAnswerA",
+      "value": "a) 攻击年龄大点的男孩"
+    },
+    {
+      "key": "MusicianStory2CardAnswerB",
+      "value": "b) 来把风"
+    },
+    {
+      "key": "MusicianStory2CardAnswerC",
+      "value": "c) 加入游戏"
+    },
+    {
+      "key": "MusicianStory2CardHintText",
+      "value": "他比较高，但他看起来并不比年龄小点的男孩更强壮。"
+    },
+    {
+      "key": "MusicianStory3CardText",
+      "value": "14年前\n法国拉罗谢尔\n1915年5月12日\n上午\n\n在港口，一个男孩把一艘巨大的货船指给站在他旁边的妹妹看。“我们需要潜入那里。你能作好吗？”苍白的女孩紧紧地抱着哥哥。“别担心，妈妈从天上看着我们，会帮助我们找到一个安全的地方。”"
+    },
+    {
+      "key": "MusicianStory3CardQuestion",
+      "value": "你确定："
+    },
+    {
+      "key": "MusicianStory3CardAnswerA",
+      "value": "a) 男孩说：“你呆跟阿姨吧。我一个人去，然后你可以晚点加入我。”"
+    },
+    {
+      "key": "MusicianStory3CardAnswerB",
+      "value": "b) 水手把他们藏在船上"
+    },
+    {
+      "key": "MusicianStory3CardAnswerC",
+      "value": "c) 码头工人令他们赶走"
+    },
+    {
+      "key": "MusicianStory3CardHintText",
+      "value": "船驶向纽约去。这年度海洋居然是非常不安的。"
+    },
+    {
+      "key": "MusicianStory4CardText",
+      "value": "12年前\n美国纽约\n1917年9月23日\n晚上在房间里\n\n男孩拉着苍白女孩的手，并坚持地告诉她：“玛丽，这样不能继续下去。这种空气让你感觉越来越糟。我听说，在芝加哥的薪水很高。” 她同情地看着他。“但你喜欢在这里工作。 街上的人已经来听你的了。” 旁边的餐具柜上有一张老照片。"
+    },
+    {
+      "key": "MusicianStory4CardQuestion",
+      "value": "你确定："
+    },
+    {
+      "key": "MusicianStory4CardAnswerA",
+      "value": "a) 他们决定再考虑考虑"
+    },
+    {
+      "key": "MusicianStory4CardAnswerB",
+      "value": "b) 女孩说服他留下来，并追逐他梦想"
+    },
+    {
+      "key": "MusicianStory4CardAnswerC",
+      "value": "c) 他们决定一起搬家"
+    },
+    {
+      "key": "MusicianStory4CardHintText",
+      "value": "在照片上是普瓦捷，是法国西部城市。在前台是一对已婚夫妇，有一个儿子和一个年轻的女儿。"
+    },
+    {
+      "key": "MusicianStory5CardText",
+      "value": "2周前\n美国芝加哥郊区\n1929年10月12日\n10:03\n\n三岁的孩子躺着在婴儿床上剧烈咳嗽。 他的母亲站在门口，跟年轻人说话。“你为我做了这么多。 当时在家里，亨利的父亲失踪的时侯。我自己能搞定。”他摇摇头。 “玛丽，没关系。我会弄到钱。别担心。他很快就会好的。“ 孩子给了他一只泰迪熊，并说：”它会给你带来好运。”"
+    },
+    {
+      "key": "MusicianStory5CardQuestion",
+      "value": "你确定："
+    },
+    {
+      "key": "MusicianStory5CardAnswerA",
+      "value": "a) 她决定自己做一切"
+    },
+    {
+      "key": "MusicianStory5CardAnswerB",
+      "value": "b) 他决定用酒精走私赚钱"
+    },
+    {
+      "key": "MusicianStory5CardAnswerC",
+      "value": "c) 他带着泰迪熊去酒吧"
+    },
+    {
+      "key": "MusicianStory5CardHintText",
+      "value": "医生会诊断出百日咳。治疗很贵。"
+    },
+    {
+      "key": "MusicianStory6CardText",
+      "value": "5天前\n美国芝加哥\n1929年10月21日\n05:17\n\n穿着尾衣的年轻人和另外两个男人站在豪华的办公室里。他们很兴奋、很紧张。身材矮小的胖男人严厉地盯着他们。“你们连这么简单的任务都没有完成？ 我要怎么办？”他点了根烟，然后指着年轻人。“而你要记住，明天你一定要把这笔钱归还。。。还别忘利息，一如既往。”"
+    },
+    {
+      "key": "MusicianStory6CardQuestion",
+      "value": "你确定年轻人："
+    },
+    {
+      "key": "MusicianStory6CardAnswerA",
+      "value": "a) 笑在小男人的脸上"
+    },
+    {
+      "key": "MusicianStory6CardAnswerB",
+      "value": "b) 静静点头"
+    },
+    {
+      "key": "MusicianStory6CardAnswerC",
+      "value": "c) 请延迟几天"
+    },
+    {
+      "key": "MusicianStory6CardHintText",
+      "value": "身材矮小的胖男人是阿方索加布里埃尔卡彭，是芝加哥黑手党的残酷领袖。"
+    },
+    {
+      "key": "MusicianStory7CardText",
+      "value": "3天前\n美国芝加哥\n1929年10月23日\n11:52\n\n“手拿把攥，雅克。 我会投资你的钱，几天后会翻倍。 你会还清你的债务！”带着手提箱的男人对另一个人眨眨眼，并瞥了一眼信封。雅克问道：“你确定没有风险吗？”。男人笑着点头。 “完全没有啊！”"
+    },
+    {
+      "key": "MusicianStory7CardQuestion",
+      "value": "你确定雅克："
+    },
+    {
+      "key": "MusicianStory7CardAnswerA",
+      "value": "a) 给他信封和他所有的钱"
+    },
+    {
+      "key": "MusicianStory7CardAnswerB",
+      "value": "b) 只给他信封"
+    },
+    {
+      "key": "MusicianStory7CardAnswerC",
+      "value": "c) 拒绝要约，什么都不给他"
+    },
+    {
+      "key": "MusicianStory7CardHintText",
+      "value": "信封上标有“A.G.K.”。其里面有200美元。钞票都是全新的十美元钞票。"
+    },
+    {
+      "key": "MusicianStory8CardText",
+      "value": "2天前\n美国芝加哥\n1929年10月24日\n20:38\n\n身材矮小的胖男人从纸刀上擦着血说。“虽然我尊重你，比尔，但是我知道小号手愚弄我们。把我的钱还给我或者给他一个很好的教训。让其他人从这种情况吸取经验教训。” 他看着比尔的新伤口。“不然下次你会失去一只眼睛。”"
+    },
+    {
+      "key": "MusicianStory8CardQuestion",
+      "value": "你确定比尔回答:"
+    },
+    {
+      "key": "MusicianStory8CardAnswerA",
+      "value": "a) “当然，老板。 我能搞定”"
+    },
+    {
+      "key": "MusicianStory8CardAnswerB",
+      "value": "b) “我要走了，老板。 我不会这么做的”"
+    },
+    {
+      "key": "MusicianStory8CardAnswerC",
+      "value": "c) “老板，我相信他下个月会拿到钱。”"
+    },
+    {
+      "key": "MusicianStory8CardHintText",
+      "value": "比尔用手帕擦了擦脸颊上的血。 他是卡彭的最忠诚和最执着的心腹。"
+    },
+    {
+      "key": "MusicianStory9CardText",
+      "value": "1天前\n美国芝加哥郊区\n1929年10月26日\n17:18\n\n“你做了什么？!”年轻女子看着对话者而不相信她的眼睛。 “你想让我死吗？”她的眼睛充满了泪水。 年轻人拥抱她，回答说：“我以为这是一个好主意。 你需要钱，为了让亨利好起来。”他听隔壁房间传来的声音。"
+    },
+    {
+      "key": "MusicianStory9CardQuestion",
+      "value": "你确定年轻女子:"
+    },
+    {
+      "key": "MusicianStory9CardAnswerA",
+      "value": "a) 明明说他马上要去市里开会"
+    },
+    {
+      "key": "MusicianStory9CardAnswerB",
+      "value": "b) 走出房间"
+    },
+    {
+      "key": "MusicianStory9CardAnswerC",
+      "value": "c) 披外套，并去市里的会议"
+    },
+    {
+      "key": "MusicianStory9CardHintText",
+      "value": "孩子玩立方体。从门里会清晰地听到他的不断的咳嗽声。"
+    },
+    {
+      "key": "MusicianStory10CardText",
+      "value": "2小时前\n美国芝加哥\n1929年10月26日\n19:30\n\n年轻人照镜子，以确保他的衣服是干净的。他的尾衣与鞋子已穿破的，但他对自己的外表感到满意。他被敲门声吓了一跳，但当他听到小组成员的声音时，他就平静下来。"
+    },
+    {
+      "key": "MusicianStory10CardQuestion",
+      "value": "你确定男人:"
+    },
+    {
+      "key": "MusicianStory10CardAnswerA",
+      "value": "a) 打开门，高兴地说：“我们今天换工具，怎么样？”"
+    },
+    {
+      "key": "MusicianStory10CardAnswerB",
+      "value": "b) 喊：“等一下！”"
+    },
+    {
+      "key": "MusicianStory10CardAnswerC",
+      "value": "c) 打开门，疲惫地说：“我不去。 我感觉不舒服”"
+    },
+    {
+      "key": "MusicianStory10CardHintText",
+      "value": "他准备的管子就在门旁边。 但穿着尾衣的男人也擅长演奏其他乐器。"
+    },
+    {
+      "key": "MusicianStory11CardText",
+      "value": "7分钟前\n美国芝加哥\n1929年10月26日\n21:25\n\n两个魁梧的男子站在蓝磨酒吧前。 较高的人看着他的同伙，问：“有什么计划，比尔？”"
+    },
+    {
+      "key": "MusicianStory11CardQuestion",
+      "value": "你确定比尔回答:"
+    },
+    {
+      "key": "MusicianStory11CardAnswerA",
+      "value": "a) “像往常一样：我去正门，你去后门。”"
+    },
+    {
+      "key": "MusicianStory11CardAnswerB",
+      "value": "b) “我去里面。 你把风。”"
+    },
+    {
+      "key": "MusicianStory11CardAnswerC",
+      "value": "c) “我通过后门。 你跟我来”"
+    },
+    {
+      "key": "MusicianStory11CardHintText",
+      "value": "比尔的脸颊上有一个新的切口。 这是老板警告他不要再犯那么多错误。"
+    },
+    {
+      "key": "MusicianStory12CardText",
+      "value": "死亡的那一刻\n美国芝加哥\n1929年10月26日\n21:32\n\n二十岁左右的男人死气沉沉地躺在一个肮脏的死胡同里的地上。他沾满鲜血的衬衫上有一些弹孔。左手紧握着他的领带，好像他试图在生命耗尽时松开它。在右手有一个泰迪熊。附近酒吧的蓝色霓虹灯闪烁，使死胡同看起来更加黑暗。"
+    },
+    {
+      "key": "MusicianStory12CardHintText",
+      "value": "从酒吧入口传来响亮的爵士乐声。 乐队跳过所有的小号独奏。"
+    },
+    {
+      "key": "MusicianStory13CardText",
+      "value": "2年后\n美国纽约\n1931年10月24日\n18:21\n\n穿着黑色的二十多岁的女子走过一个报摊。 她背着五岁的孩子，他已经变得太重了。 她突然停下来，退后几步，看着晚报的头版。 “那坏蛋以200美元送刺客杀雅克，”她仇恨地看这张照片。悲痛欲绝的女人继续朝港口走去。"
+    },
+    {
+      "key": "MusicianStory13CardEventsAfterDeath",
+      "value": "由于这些事件发生在死者死后，不幸的是，你在这里的行动什么都改变不了。"
+    },
+    {
+      "key": "MusicianStory13CardHintText",
+      "value": "在照片上是阿方索加布里埃尔卡彭，那个时代最着名的黑帮。"
+    },
+    {
+      "key": "MusicianFullStoryText",
+      "value": "死者名叫雅克，出生于法国普瓦捷。 由于父亲---亨利---突然去世，他不得不为他的妹妹玛丽承担负责。 当他们的母亲去世而第一次世界大战爆发时，责任更增加。\n母亲不准他默默无闻地死去的禁令困扰着他，所以雅克渴望成为一位著名的音乐家。\n逃离战争，孤儿们抵达纽约。但雅克妹妹的健康状况越来越糟，所以他们决定搬到芝加哥郊区。\n在那里玛丽生下了儿子，名叫亨利。 亨利的父亲离开之后，雅克意识到他将再次为妹妹和侄子承担责任。 但命运对他们来说是残酷的，孩子得了百日咳，在1933年发明接种疫苗之前这种疾病无法治愈。\n雅克为了医好亨利向黑手党借了钱。 他必须为卡彭做一份工作来偿还债务。 但是出了什么问题，并且黑手党老板要求付清债款加利息。 为了赚取钱，雅克请一位朋友以盈利方式投资资金，但这是就在黑色星期四前一天。这一天股票价格急剧下跌。\n卡彭不想再等还款了。 他派他的心腹，他们开枪打死试图通过酒吧的后门逃跑的雅克。"
+    },
+    {
+      "key": "MusicianImportantDecisionsText",
+      "value": "重要决定:\n2周前 - a: 由于玛丽决定控制一切，雅克不必向卡彭借钱。\n2天前 - c: 由于比尔要求延期，雅克能够诚实地给出一份钱。\n2小时前 - a: 阿尔卡彭的心腹射中了小号手。 由于雅克采取了另一种工具，他有机会逃脱。\n7分钟前 - b:比尔和他的同伙没有把风后门，所以雅克能够从酒吧逃脱被忽视。"
+    }
+  ]
+}

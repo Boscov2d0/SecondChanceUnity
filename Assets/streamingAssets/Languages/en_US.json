@@ -1,0 +1,1178 @@
+{
+  "items": [
+    {
+      "key": "StartGame",
+      "value": "Choose story"
+    },
+    {
+      "key": "Rules",
+      "value": "Rules"
+    },
+    {
+      "key": "Exit",
+      "value": "Exit"
+    },
+    {
+      "key": "LicenseText",
+      "value": "The game was based on the board games \"Второй шанс День сакуры\" and \"Второй шанс Смерть музыканта\" from Pegasus Spiele GmbH. Original name \"Undo:Cherry Blossom Festival\" and \"Undo:Blood in the gutter\". This game is not licensed with the permission of © 2020 Pegasus Spiele GmbH, Germany, www.pegasus.de, in contrast to the above-mentioned board games. This game is exclusively educational in terms of creating computer games and does not pursue any commercial purposes. Exclusive distributor on the territory of the Russian Federation, the Republics of Armenia, Belarus, Kazakhstan, Kyrgyzstan and Ukraine: LLC \"Настольные игры - Стиль Жизни\". Board Game Manufacturer: LLC \"Настольные игры - Стиль Жизни\", room 6A, III, 1 fl., bldg. 6, ul. 2st Filevskaya 7, Moscow, 121096, Russia. Tel.: +7 495 510 0539, mail@lifestyleltd.ru, www.LifeStyleLtd.tu"
+    },
+    {
+      "key": "HelloStory",
+      "value": "You are the creator of destiny. Collecting the past of a person from the fragments, you must understand his fate and prevent death."
+    },
+    {
+      "key": "RulePage1",
+      "value": "The death of a loved one is a terrible tragedy that brings only grief and emptiness. You are the creator of destiny. You are able to stop the passage of time and move various moments of the deceased's life to save him from death and give him another chance. You can only influence for brief moments, but your careful intervention should be enough. Now the events of the past will develop in a new way, and the fate of the deceased will follow a different path."
+    },
+    {
+      "key": "RulePage2",
+      "value": "First you have to find out the circumstances of the death that you need to prevent. At the beginning of the game, one of the 13 Story Cards will open. In total, you can open only 10 of them in the game, including the first card."
+    },
+    {
+      "key": "RulePage3",
+      "value": "In the upper-left part of the History Map, the date, the place of the moment, and the story itself, which takes place at this moment, are written."
+    },
+    {
+      "key": "RulePage4",
+      "value": "In the lower-left part of the History Map, you will see possible options for changing the past. If you managed to change the past for the better, you get points, and if you only made it worse, you lose. If you didn't change anything, you doomed the deceased to repeat his fate and got 0 points. You can only choose once, so choose carefully."
+    },
+    {
+      "key": "RulePage5",
+      "value": "You can use the Hint Map located in the upper-right part of the History Map corresponding to the current History Map. To see the hint, click on the image. But remember, you can only open 5 Hint Cards per game."
+    },
+    {
+      "key": "RulePage6",
+      "value": "In the lower right part of the History Map, there is a button to close the History Map."
+    },
+    {
+      "key": "RulePage7",
+      "value": "This is what the History Map looks like when you read it. To open it, click on the map again."
+    },
+    {
+      "key": "RulePage8",
+      "value": "Each History Map has the date and place of the history event written on it."
+    },
+    {
+      "key": "RulePage9",
+      "value": "Here you can see how many more History Cards you can open."
+    },
+    {
+      "key": "RulePage10",
+      "value": "Here you can see how many more Hint Cards you can open."
+    },
+    {
+      "key": "RulePage11",
+      "value": "These two buttons are responsible for turning the music on and off."
+    },
+    {
+      "key": "RulePage12",
+      "value": "With this button, you can end the game and go to the main menu."
+    },
+    {
+      "key": "RulePage13",
+      "value": "The game will end when you have no History Cards left. Еhe game will automatically count your points and show you what result you managed to achieve. Have a nice game)"
+    },
+    {
+      "key": "MainMenuButton",
+      "value": "Main menu"
+    },
+    {
+      "key": "BackButton",
+      "value": "Back"
+    },
+    {
+      "key": "NextButton",
+      "value": "Next"
+    },
+    {
+      "key": "SacuraMapInfo",
+      "value": "You will go to modern Japan. Death in the cherry blossom time... It's too late to fix something... Or is there hope?"
+    },
+    {
+      "key": "MusicianMapInfo",
+      "value": "You will travel to Chicago in the 20s. A teddy bear next to a pool of blood... Should the search for happiness end in death?"
+    },
+
+
+
+    {
+      "key": "CountOfEvidence",
+      "value": "Story cards left"
+    },
+    {
+      "key": "CountOfHint",
+      "value": "Hints left"
+    },
+    {
+      "key": "HintQuestion",
+      "value": "Use a hint?"
+    },
+    {
+      "key": "NegativeResult",
+      "value": "You only made it worse"
+    },
+    {
+      "key": "PositiveResult",
+      "value": "Managed to change the past for the better"
+    },
+    {
+      "key": "NeitralResult",
+      "value": "Nothing has changed"
+    },
+    {
+      "key": "VeryBadEnd",
+      "value": "Oh no, you've ruined everything and made death even more inevitable."
+    },
+    {
+      "key": "BadEnd",
+      "value": "You went the right way, but you couldn't cheat fate."
+    },
+    {
+      "key": "NoChangeEnd",
+      "value": "You were close to success, but fate is inexorable."
+    },
+    {
+      "key": "NormalEnd",
+      "value": "Congratulations! You really managed to change the past!"
+    },
+    {
+      "key": "GoodEnd",
+      "value": "You unraveled the story and easily prevented death."
+    },
+    {
+      "key": "VeryGoodEnd",
+      "value": "Incredible! You not only conquered fate and averted death, but also made life better."
+    },
+    {
+      "key": "CantReadStoryText",
+      "value": "Score more points to read the full story"
+    },
+    {
+      "key": "ReadStoryButton",
+      "value": "Read full story"
+    },
+    {
+      "key": "PlayAgainButton",
+      "value": "Play again"
+    },
+    {
+      "key": "ReadImportantDecisionsButton",
+      "value": "Read important decisions"
+    },
+
+
+
+
+
+    {
+      "key": "Sakura1FrontCardTime",
+      "value": "60 years ago"
+    },
+    {
+      "key": "Sakura1FrontCardPlace",
+      "value": "Hiroshima,\nJapan"
+    },
+    {
+      "key": "Sakura1FrontCardDate",
+      "value": "March 1, 1940\nlate in the evening"
+    },
+    {
+      "key": "Sakura1BackCard",
+      "value": "60 years ago\nHiroshima,\nJapan\nMarch 1, 1940\nlate in the evening\n\nA boy about four or five years old is lying in bed and can't sleep. He is sad because his father could not come home for the cherry blossom festival because of an important business trip. Suddenly, he hears his mother giggling from the next room, and then a man's VOICE."
+    },
+    {
+      "key": "Sakura2FrontCardTime",
+      "value": "55 years ago"
+    },
+    {
+      "key": "Sakura2FrontCardPlace",
+      "value": "Hiroshima,\nJapan"
+    },
+    {
+      "key": "Sakura2FrontCardDate",
+      "value": "August 3, 1945\nthe beginning of the evening in the pottery workshop"
+    },
+    {
+      "key": "Sakura2BackCard",
+      "value": "55 years ago\nHiroshima,\nJapan\nAugust 3, 1945\nthe beginning of the evening in the pottery workshop\n\n\"Watch out!\" the father shouts at his SON, who shudders and looks at the shards in horror. \"Keep our vases as the hearts of your parents!\" Then he adds sternly, \"Your uncle will take you to your grandmother's tomorrow. It's safer there. Now at least take the vase to your mother in one piece!\""
+    },
+    {
+      "key": "Sakura3FrontCardTime",
+      "value": "50 years ago"
+    },
+    {
+      "key": "Sakura3FrontCardPlace",
+      "value": "Akioto,\nJapan"
+    },
+    {
+      "key": "Sakura3FrontCardDate",
+      "value": "June 12, 1950\nearly morning"
+    },
+    {
+      "key": "Sakura3BackCard",
+      "value": "50 years ago\nAkioto,\nJapan\nJune 12, 1950\nearly morning\n\nA teenager with a BACKPACK stands in front of his grandmother. She holds out a bandaged bundle. \"Taro,\" she says, \"take this suit. I made it for your father just a month before the tragedy. Unfortunately, I couldn't give it to him. And it will soon fit you.\""
+    },
+    {
+      "key": "Sakura4FrontCardTime",
+      "value": "35 years ago"
+    },
+    {
+      "key": "Sakura4FrontCardPlace",
+      "value": "Okayama,\nJapan"
+    },
+    {
+      "key": "Sakura4FrontCardDate",
+      "value": "May 23, 1965\nevening in the hospital"
+    },
+    {
+      "key": "Sakura4BackCard",
+      "value": "35 years ago\nOkayama,\nJapan\nMay 23, 1965\nevening in the hospital\n\nA crying man sits in a hospital gown by his wife's bed. She says, \" It's better this way. She will be a good mother to our children.\" \"I can't do that. Especially while you're...\" The man begins to sob. There's a noise coming from THE HALLWAY."
+    },
+    {
+      "key": "Sakura5FrontCardTime",
+      "value": "A month ago"
+    },
+    {
+      "key": "Sakura5FrontCardPlace",
+      "value": "Okayama,\nJapan"
+    },
+    {
+      "key": "Sakura5FrontCardDate",
+      "value": "February 4, 2000\n15:08"
+    },
+    {
+      "key": "Sakura5BackCard",
+      "value": "A month ago\nOkayama,\nJapan\nFebruary 4, 2000\n15:08\n\nThe pharmacist looks into the eyes of a desperate woman in her sixties who has just told him about her problem. \"Don't worry, Mrs. Totomi. You're just overworked. I will give you a remedy that will help.\" The woman nods and nervously opens her PURSE."
+    },
+    {
+      "key": "Sakura6FrontCardTime",
+      "value": "A week ago"
+    },
+    {
+      "key": "Sakura6FrontCardPlace",
+      "value": "Tokyo,\nJapan"
+    },
+    {
+      "key": "Sakura6FrontCardDate",
+      "value": "February 23, 2000\n23:18"
+    },
+    {
+      "key": "Sakura6BackCard",
+      "value": "A week ago\nTokyo,\nJapan\nFebruary 23, 2000\n23:18\n\nA woman in her forties enters her apartment, sorting through her mail. On one of the letters, she freezes. She goes to her desk and opens a DRAWER filled with unread emails. She looks at the unopened letter in her hand."
+    },
+    {
+      "key": "Sakura7FrontCardTime",
+      "value": "3 days ago"
+    },
+    {
+      "key": "Sakura7FrontCardPlace",
+      "value": "Osaka,\nJapan"
+    },
+    {
+      "key": "Sakura7FrontCardDate",
+      "value": "February 27, 2000\n20:39"
+    },
+    {
+      "key": "Sakura7BackCard",
+      "value": "3 days ago\nOsaka,\nJapan\nFebruary 27, 2000\n20:39\n\n\"How can you treat him so well? Are you going to send him a gift? After everything he'd done since mother's death?\" an angry female voice is heard shouting from the phone. Her brother, nervously twirling a BUSINESS CARD in his hands, tries to calm her down. \"Look, Yuki, it's been so long. And now it's the cherry blossom festival.\" But she had already hung up."
+    },
+    {
+      "key": "Sakura8FrontCardTime",
+      "value": "On the morning of his death"
+    },
+    {
+      "key": "Sakura8FrontCardPlace",
+      "value": "Okayama,\nJapan"
+    },
+    {
+      "key": "Sakura8FrontCardDate",
+      "value": "March 1, 2000\n07:12"
+    },
+    {
+      "key": "Sakura8BackCard",
+      "value": "On the morning of his death\nOkayama,\nJapan\nMarch 1, 2000\n07:12\n\nA man in his sixties stands HESITANTLY in his underwear in front of the closet. Sounds are heard from the kitchen - the woman says to him, \"Taro, don't miss your flight at 10. You know how important this is to you!\""
+    },
+    {
+      "key": "Sakura9FrontCardTime",
+      "value": "10 hours ago"
+    },
+    {
+      "key": "Sakura9FrontCardPlace",
+      "value": "Takamatsu,\nJapan"
+    },
+    {
+      "key": "Sakura9FrontCardDate",
+      "value": "March 1, 2000\n09:55 at the airport"
+    },
+    {
+      "key": "Sakura9BackCard",
+      "value": "10 hours ago\nTakamatsu,\nJapan\nMarch 1, 2000\n09:55 at the airport\n\nA young man in a uniform is vigorously trying to push a cleaning cart through the crowd. He's tense because he's barely moving forward, and his anger is growing by the second. He clutches the handles of the cart tightly and continues walking, but suddenly a terribly agitated man in a SUIT approaches him."
+    },
+    {
+      "key": "Sakura10FrontCardTime",
+      "value": "4 hours ago"
+    },
+    {
+      "key": "Sakura10FrontCardPlace",
+      "value": "Okayama,\nJapan"
+    },
+    {
+      "key": "Sakura10FrontCardDate",
+      "value": "March 1, 2000\n15:27"
+    },
+    {
+      "key": "Sakura10BackCard",
+      "value": "4 hours ago\nOkayama,\nJapan\nMarch 1, 2000\n15:27\n\nAn elderly man excitedly goes to his home. His wife is crying, clutching an open LETTER in her hand. He tries to hug her, but she pushes him away and starts yelling at him. She pulls the cherry branches out of the vase and smashes it against the wall. The shocked man bends down and begins to pick up the pieces. The woman runs out of the house."
+    },
+    {
+      "key": "Sakura11FrontCardTime",
+      "value": "An hour and a half ago"
+    },
+    {
+      "key": "Sakura11FrontCardPlace",
+      "value": "Okayama,\nJapan"
+    },
+    {
+      "key": "Sakura11FrontCardDate",
+      "value": "March 1, 2000\n17:57"
+    },
+    {
+      "key": "Sakura11BackCard",
+      "value": "An hour and a half ago\nOkayama,\nJapan\nMarch 1, 2000\n17:57\n\nA courier with a package rings the doorbell. Several branches have been cut from the cherry tree growing next to the WINDOW. No one opens the door, and the driver stopped in indecision."
+    },
+    {
+      "key": "Sakura12FrontCardTime",
+      "value": "The moment of death"
+    },
+    {
+      "key": "Sakura12FrontCardPlace",
+      "value": "Okayama,\nJapan"
+    },
+    {
+      "key": "Sakura12FrontCardDate",
+      "value": "March 1, 2000\n19:27"
+    },
+    {
+      "key": "Sakura12BackCard",
+      "value": "The moment of death\nOkayama,\nJapan\nMarch 1, 2000\n19:27\n\nA dead man in his sixties is lying on the floor of his living room. Next to it is a broken wine glass and a PHOTO of a young woman in a wheelchair. The deceased is dressed an old-fashioned blue suit. He has no visible injuries on the body, but does have a nearly imperceptible scar above the eye. The phone in his suit pocket rings, playing the Moonlight Sonata. On the table are several branches of cherry blossoms."
+    },
+    {
+      "key": "Sakura13FrontCardTime",
+      "value": "A week later"
+    },
+    {
+      "key": "Sakura13FrontCardPlace",
+      "value": "Hiroshima,\nJapan"
+    },
+    {
+      "key": "Sakura13FrontCardDate",
+      "value": "March 8, 2000\n14:32"
+    },
+    {
+      "key": "Sakura13BackCard",
+      "value": "A week later\nHiroshima,\nJapan\nMarch 8, 2000\n14:32\n\nThe funeral procession gathered around the coffin of the deceased. A crying woman in her forties stands in front of everyone, clutching a letter. Two women are WHISPERING in the back row."
+    },
+    {
+      "key": "SakuraStory1CardText",
+      "value": "60 years ago\nHiroshima,\nJapan\nMarch 1, 1940\nlate in the evening\n\nA boy about four or five years old is lying in bed and can't sleep. He is sad because his father could not come home for the cherry blossom festival because of an important business trip. Suddenly, he hears his mother giggling from the next room, and then a man's VOICE."
+    },
+    {
+      "key": "SakuraStory1CardQuestion",
+      "value": "You make sure that he:"
+    },
+    {
+      "key": "SakuraStory1CardAnswerA",
+      "value": "a) Turns on the other side and falls asleep"
+    },
+    {
+      "key": "SakuraStory1CardAnswerB",
+      "value": "b) Calls his mother"
+    },
+    {
+      "key": "SakuraStory1CardAnswerC",
+      "value": "c) Gets up and goes to see"
+    },
+    {
+      "key": "SakuraStory1CardHintText",
+      "value": "The boy hears the man say: \"Is Taro asleep? We could have a nice time.\""
+    },
+    {
+      "key": "SakuraStory2CardText",
+      "value": "55 years ago\nHiroshima,\nJapan\nAugust 3, 1945\nthe beginning of the evening in the pottery workshop\n\n\"Watch out!\" the father shouts at his SON, who shudders and looks at the shards in horror. \"Keep our vases as the hearts of your parents!\" Then he adds sternly, \"Your uncle will take you to your grandmother's tomorrow. It's safer there. Now at least take the vase to your mother in one piece!\""
+    },
+    {
+      "key": "SakuraStory2CardQuestion",
+      "value": "You make sure that son:"
+    },
+    {
+      "key": "SakuraStory2CardAnswerA",
+      "value": "a) Obediently takes the vase to his mother"
+    },
+    {
+      "key": "SakuraStory2CardAnswerB",
+      "value": "b) Leaves without taking the vase"
+    },
+    {
+      "key": "SakuraStory2CardAnswerC",
+      "value": "c) Smashes the vase against the wall, screaming with rage"
+    },
+    {
+      "key": "SakuraStory2CardHintText",
+      "value": "He's seething with anger inside. Above his eye is a scar-the mark of his father's severity."
+    },
+    {
+      "key": "SakuraStory3CardText",
+      "value": "50 years ago\nAkioto,\nJapan\nJune 12, 1950\nearly morning\n\nA teenager with a BACKPACK stands in front of his grandmother. She holds out a bandaged bundle. \"Taro,\" she says, \"take this suit. I made it for your father just a month before the tragedy. Unfortunately, I couldn't give it to him. And it will soon fit you.\""
+    },
+    {
+      "key": "SakuraStory3CardQuestion",
+      "value": "You make sure that he:"
+    },
+    {
+      "key": "SakuraStory3CardAnswerA",
+      "value": "a) Takes the bundle"
+    },
+    {
+      "key": "SakuraStory3CardAnswerB",
+      "value": "b) Does not accept the bundle"
+    },
+    {
+      "key": "SakuraStory3CardAnswerC",
+      "value": "c) Immediately puts on the suit"
+    },
+    {
+      "key": "SakuraStory3CardHintText",
+      "value": "In his backpack, a rare vase, neatly wrapped,is all that remains of his father."
+    },
+    {
+      "key": "SakuraStory4CardText",
+      "value": "35 years ago\nOkayama,\nJapan\nMay 23, 1965\nevening in the hospital\n\nA crying man sits in a hospital gown by his wife's bed. She says, \" It's better this way. She will be a good mother to our children.\" \"I can't do that. Especially while you're...\" The man begins to sob. There's a noise coming from THE HALLWAY."
+    },
+    {
+      "key": "SakuraStory4CardQuestion",
+      "value": "You make sure that:"
+    },
+    {
+      "key": "SakuraStory4CardAnswerA",
+      "value": "a) The man calms down and promises his wife to keep a secret"
+    },
+    {
+      "key": "SakuraStory4CardAnswerB",
+      "value": "b) The woman they were talking about enters the room"
+    },
+    {
+      "key": "SakuraStory4CardAnswerC",
+      "value": "c) The man enters the corridor deep in thought"
+    },
+    {
+      "key": "SakuraStory4CardHintText",
+      "value": "In the hallway, a girl is playing with her younger brother. \"I'll ask my dad later what's wrong with mom,\" the girl whispers confidently."
+    },
+    {
+      "key": "SakuraStory5CardText",
+      "value": "A month ago\nOkayama,\nJapan\nFebruary 4, 2000\n15:08\n\nThe pharmacist looks into the eyes of a desperate woman in her sixties who has just told him about her problem. \"Don't worry, Mrs. Totomi. You're just overworked. I will give you a remedy that will help.\" The woman nods and nervously opens her PURSE."
+    },
+    {
+      "key": "SakuraStory5CardQuestion",
+      "value": "You make sure that the pharmacist gives her:"
+    },
+    {
+      "key": "SakuraStory5CardAnswerA",
+      "value": "a) Sleeping pills"
+    },
+    {
+      "key": "SakuraStory5CardAnswerB",
+      "value": "b) Antidepressants"
+    },
+    {
+      "key": "SakuraStory5CardAnswerC",
+      "value": "c) Vitamins"
+    },
+    {
+      "key": "SakuraStory5CardHintText",
+      "value": "The purse has a pattern in the shape of sakura flowers. Inside it is an empty bottle of antidepressants."
+    },
+    {
+      "key": "SakuraStory6CardText",
+      "value": "A week ago\nTokyo,\nJapan\nFebruary 23, 2000\n23:18\n\nA woman in her forties enters her apartment, sorting through her mail. On one of the letters, she freezes. She goes to her desk and opens a DRAWER filled with unread emails. She looks at the unopened letter in her hand."
+    },
+    {
+      "key": "SakuraStory6CardQuestion",
+      "value": "You make sure that she:"
+    },
+    {
+      "key": "SakuraStory6CardAnswerA",
+      "value": "a) Puts the unopened letter in the mailbox"
+    },
+    {
+      "key": "SakuraStory6CardAnswerB",
+      "value": "b) Prints the letter and reads it"
+    },
+    {
+      "key": "SakuraStory6CardAnswerC",
+      "value": "c) Does not read the letter, but writes his own"
+    },
+    {
+      "key": "SakuraStory6CardHintText",
+      "value": "There's a picture in the drawer: a woman in a wheelchair, with a girl on her lap. The girl has a stuffed rabbit in her hands. Next to the woman are a small boy and a man whose face is torn out of the photo."
+    },
+    {
+      "key": "SakuraStory7CardText",
+      "value": "3 days ago\nOsaka,\nJapan\nFebruary 27, 2000\n20:39\n\n\"How can you treat him so well? Are you going to send him a gift? After everything he'd done since mother's death?\" an angry female voice is heard shouting from the phone. Her brother, nervously twirling a BUSINESS CARD in his hands, tries to calm her down. \"Look, Yuki, it's been so long. And now it's the cherry blossom festival.\" But she had already hung up."
+    },
+    {
+      "key": "SakuraStory7CardQuestion",
+      "value": "You make sure that he types in the search bar:"
+    },
+    {
+      "key": "SakuraStory7CardAnswerA",
+      "value": "a) \"Whiskey\""
+    },
+    {
+      "key": "SakuraStory7CardAnswerB",
+      "value": "b) \"Cigarettes\""
+    },
+    {
+      "key": "SakuraStory7CardAnswerC",
+      "value": "c) \"Suicide\""
+    },
+    {
+      "key": "SakuraStory7CardHintText",
+      "value": "This is an old business card of a man named Taro Totomi, who lives in Okayama."
+    },
+    {
+      "key": "SakuraStory8CardText",
+      "value": "On the morning of his death\nOkayama,\nJapan\nMarch 1, 2000\n07:12\n\nA man in his sixties stands HESITANTLY in his underwear in front of the closet. Sounds are heard from the kitchen - the woman says to him, \"Taro, don't miss your flight at 10. You know how important this is to you!\""
+    },
+    {
+      "key": "SakuraStory8CardQuestion",
+      "value": "You make sure that he chooses:"
+    },
+    {
+      "key": "SakuraStory8CardAnswerA",
+      "value": "a) New grey suit"
+    },
+    {
+      "key": "SakuraStory8CardAnswerB",
+      "value": "b) Old blue suit"
+    },
+    {
+      "key": "SakuraStory8CardAnswerC",
+      "value": "c) Something comfortable"
+    },
+    {
+      "key": "SakuraStory8CardHintText",
+      "value": "Sweat stands out on the man's face. He thinks about putting on his father's blue suit again."
+    },
+    {
+      "key": "SakuraStory9CardText",
+      "value": "10 hours ago\nTakamatsu,\nJapan\nMarch 1, 2000\n09:55 at the airport\n\nA young man in a uniform is vigorously trying to push a cleaning cart through the crowd. He's tense because he's barely moving forward, and his anger is growing by the second. He clutches the handles of the cart tightly and continues walking, but suddenly a terribly agitated man in a SUIT approaches him."
+    },
+    {
+      "key": "SakuraStory9CardQuestion",
+      "value": "You make sure that he:"
+    },
+    {
+      "key": "SakuraStory9CardAnswerA",
+      "value": "a) Gets in the way of the man"
+    },
+    {
+      "key": "SakuraStory9CardAnswerB",
+      "value": "b) Stops and offers the man help"
+    },
+    {
+      "key": "SakuraStory9CardAnswerC",
+      "value": "c) Crashes into the man at full speed and shouts \"Watch out!\""
+    },
+    {
+      "key": "SakuraStory9CardHintText",
+      "value": "From the phone in his right pocket, he can hear \"Moonlight Sonata\". From the left-the head of a stuffed rabbit sticks out."
+    },
+    {
+      "key": "SakuraStory10CardText",
+      "value": "4 hours ago\nOkayama,\nJapan\nMarch 1, 2000\n15:27\n\nAn elderly man excitedly goes to his home. His wife is crying, clutching an open LETTER in her hand. He tries to hug her, but she pushes him away and starts yelling at him. She pulls the cherry branches out of the vase and smashes it against the wall. The shocked man bends down and begins to pick up the pieces. The woman runs out of the house."
+    },
+    {
+      "key": "SakuraStory10CardQuestion",
+      "value": "You make sure that she:"
+    },
+    {
+      "key": "SakuraStory10CardAnswerA",
+      "value": "a) Leaves a letter"
+    },
+    {
+      "key": "SakuraStory10CardAnswerB",
+      "value": "b) Takes the phone with him"
+    },
+    {
+      "key": "SakuraStory10CardAnswerC",
+      "value": "c) Forgets the purse"
+    },
+    {
+      "key": "SakuraStory10CardHintText",
+      "value": "There are traces of lipstick on the envelope next to the address."
+    },
+    {
+      "key": "SakuraStory11CardText",
+      "value": "An hour and a half ago\nOkayama,\nJapan\nMarch 1, 2000\n17:57\n\nA courier with a package rings the doorbell. Several branches have been cut from the cherry tree growing next to the WINDOW. No one opens the door, and the driver stopped in indecision."
+    },
+    {
+      "key": "SakuraStory11CardQuestion",
+      "value": "You make sure that he:"
+    },
+    {
+      "key": "SakuraStory11CardAnswerA",
+      "value": "a) Leaves the package next to the door"
+    },
+    {
+      "key": "SakuraStory11CardAnswerB",
+      "value": "b) Leaves a note and takes the package with him"
+    },
+    {
+      "key": "SakuraStory11CardAnswerC",
+      "value": "c) Continues to ring the doorbell"
+    },
+    {
+      "key": "SakuraStory11CardHintText",
+      "value": "Melancholy music and male sobs can be heard from the half-open window."
+    },
+    {
+      "key": "SakuraStory12CardText",
+      "value": "The moment of death\nOkayama,\nJapan\nMarch 1, 2000\n19:27\n\nA dead man in his sixties is lying on the floor of his living room. Next to it is a broken wine glass and a PHOTO of a young woman in a wheelchair. The deceased is dressed an old-fashioned blue suit. He has no visible injuries on the body, but does have a nearly imperceptible scar above the eye. The phone in his suit pocket rings, playing the Moonlight Sonata. On the table are several branches of cherry blossoms."
+    },
+    {
+      "key": "SakuraStory12CardHintText",
+      "value": "The photos seem to be more than 30 years old. A small boy and girl are playing in the background."
+    },
+    {
+      "key": "SakuraStory13CardText",
+      "value": "A week later\nHiroshima,\nJapan\nMarch 8, 2000\n14:32\n\nThe funeral procession gathered around the coffin of the deceased. A crying woman in her forties stands in front of everyone, clutching a letter. Two women are WHISPERING in the back row."
+    },
+    {
+      "key": "SakuraStory13CardEventsAfterDeath",
+      "value": "Since these events take place after the death of the deceased, your actions here, unfortunately, will not change anything."
+    },
+    {
+      "key": "SakuraStory13CardHintText",
+      "value": "\"Poor thing. If she had forgiven her father earlier, this wouldn't have happened.\""
+    },
+
+    {
+      "key": "SakuraFullStoryText",
+      "value": "The parents of the deceased Taro Totomi died in the bombing of Herashima when Taro was 10 years old. He survived because his parents sent him to his grandmother a few days before the tragedy. The last memory of his parents was the broken vase and the reproaches of his father. When he was 15, Taro left the village for the big city. His grandmother gave him a blue suit that she had once made for his father. Taro got married. His wife was terminally ill, but gave birth to a son and a daughter. The children grew up convinced that their father had cheated on his terminally ill wife and taken the children to a new wife, leaving their mother to die alone. In fact, the dying woman asked her husband to marry her friend. She didn't want her children to see her agonizing death and grow up without a mother. Because of the traditions and cultural characteristics, they decided to keep it a secret from the children. On a tragic day, Taro was going to fly to his daughter to tell the truth. All these years she had not answered his letters. Unfortunately, he missed his flight. When he returned home, his second wife ran away in tears because she found a letter indicating his infidelity.Neither she or her husband knew that this letter was his daughter's revenge. When the second wife of the Tarot broke the vase on his father and left his life as there are only small pieces. He passed away with a handful of pills washed down with a glass of wine and a photograph of his dead first wife in his hand."
+    },
+    {
+      "key": "SakuraImportantDecisionsText",
+      "value": "Important decisions:\nA month ago - c: Taro was looking for pills to commit suicide, but found only vitamins that the pharmacist sold to his wife.\nA week ago - b: When Taro's daughter finally read one of his writings, she found out the truth and decided to talk to him.\nThree days ago - c: Taro's son had been worried about his father for a long time. After reading about suicides, he sent his father a book that could help him. After looking through several pages, Taro began to doubt his decision.\nAn hour and a half ago - c: Due to the persistence of the courier, Taro received a package from his son. So he remembered that there are people in the world for whom he is important."
+    },
+
+
+
+
+
+
+    {
+      "key": "Musician1FrontCardTime",
+      "value": "20 years ago"
+    },
+    {
+      "key": "Musician1FrontCardPlace",
+      "value": "Poitiers,\nFrance"
+    },
+    {
+      "key": "Musician1FrontCardDate",
+      "value": "February 11, 1909\nlate evening"
+    },
+    {
+      "key": "Musician1BackCard",
+      "value": "20 years ago\nPoitiers,\nFrance\nFebruary 11, 1909\nlate evening\n\nA young woman, sobbing, embraces her children. The girl is crying, and the boy is looking at the floor. Suddenly, the mother opens her arms and looks at her son sternly. \"You're the man in the HOUSE now. Take responsibility and achieve something in life. Don't die like your father.\""
+    },
+    {
+      "key": "Musician2FrontCardTime",
+      "value": "17 years ago"
+    },
+    {
+      "key": "Musician2FrontCardPlace",
+      "value": "Poitiers,\nFrance"
+    },
+    {
+      "key": "Musician2FrontCardDate",
+      "value": "June 15, 1912\nevening"
+    },
+    {
+      "key": "Musician2BackCard",
+      "value": "17 years ago\nPoitiers,\nFrance\nJune 15, 1912\nevening\n\nBoys play soccer on the outskirts of the city. The older BOY stands on the edge and pushes the younger one. \"Hey, Jacques, wake up! You'll never be a musician. You'll fall off the roof like your father Henri. You'd better come with us at night and be on the lookout.\""
+    },
+    {
+      "key": "Musician3FrontCardTime",
+      "value": "14 лет назад"
+    },
+    {
+      "key": "Musician3FrontCardPlace",
+      "value": "La Rochelle,\nFrance"
+    },
+    {
+      "key": "Musician3FrontCardDate",
+      "value": "May 12, 1915\nmorning"
+    },
+    {
+      "key": "Musician3BackCard",
+      "value": "14 years ago\nLa Rochelle,\nFrance\nMay 12, 1915\nmorning\n\nAt the port, a teenager stands next to his sister, pointing at a huge CARGO SHIP. \"We need to sneak in there. Can you handle it?\" The pale girl holds on tightly to her brother. \"Don't worry,\" she whispers, \"Mom is watching us from heaven and will help us find a safe place.\""
+    },
+    {
+      "key": "Musician4FrontCardTime",
+      "value": "12 years ago"
+    },
+    {
+      "key": "Musician4FrontCardPlace",
+      "value": "New York,\nUSA"
+    },
+    {
+      "key": "Musician4FrontCardDate",
+      "value": "September 23, 1917\nin the evening\nin the room"
+    },
+    {
+      "key": "Musician4BackCard",
+      "value": "12 years ago\nNew York,\nUSA\nSeptember 23, 1917\nin the evening\nin the room\n\nThe teenager takes the pale girl by the hand and insistently says to her: \"Marie, this can't go on. This air makes you feel worse and worse. They say they pay well in Chicago.\" She looks at him with compassion. \"But you like working here. People on the streets are already coming to listen to you.\" There's an old PHOTOGRAPH on the sideboard next to it."
+    },
+    {
+      "key": "Musician5FrontCardTime",
+      "value": "2 weeks ago"
+    },
+    {
+      "key": "Musician5FrontCardPlace",
+      "value": "The outskirts of Chicago,\nUSA"
+    },
+    {
+      "key": "Musician5FrontCardDate",
+      "value": "October 12, 1929\n10:03"
+    },
+    {
+      "key": "Musician5BackCard",
+      "value": "2 weeks ago\nThe outskirts of Chicago,\nUSA\nOctober 12, 1929\n10:03\n\nA three-year-old CHILD is lying in a crib and coughing violently. His mother is standing in the doorway, talking to a young man.\n\"You've done so much for me. And then at home, and when Henry's father went missing. I can handle it myself.\" He shakes his head. \"Marie, it's okay. I'll get the money. Don't worry. He'll be fine soon.\" The child gives him a teddy bear and says, \"It will bring you good luck.\""
+    },
+    {
+      "key": "Musician6FrontCardTime",
+      "value": "5 days ago"
+    },
+    {
+      "key": "Musician6FrontCardPlace",
+      "value": "Chicago,\nUSA"
+    },
+    {
+      "key": "Musician6FrontCardDate",
+      "value": "October 21, 1929\n05:17"
+    },
+    {
+      "key": "Musician6BackCard",
+      "value": "5 days ago\nChicago,\nUSA\nOctober 21, 1929\n05:17\n\nA young man in a tailcoat and two other men are standing in a luxurious office. They are excited and tense. A small, plump MAN sits at a massive table and stares at them sternly. \"You didn't even complete this simple task? What am I going to do with you?\" He lights a cigarette. \"And you,\" he points to the young man, \" keep in mind that the money needs to be returned tomorrow... with interest, as always.\""
+    },
+    {
+      "key": "Musician7FrontCardTime",
+      "value": "3 days ago"
+    },
+    {
+      "key": "Musician7FrontCardPlace",
+      "value": "Chicago,\nUSA"
+    },
+    {
+      "key": "Musician7FrontCardDate",
+      "value": "October 23, 1929\n11:52"
+    },
+    {
+      "key": "Musician7BackCard",
+      "value": "3 days ago\nChicago,\nUSA\nOctober 23, 1929\n11:52\n\n\"It's a sure thing, Jacques. I'll invest your money, and it'll double in a few days. You'll pay off your debts!\" The man with the briefcase winks at the other man and glances at the ENVELOPE in his hands. \"Are you sure there's no risk?\" asks Jacques. The man smiles and nods. \"Not a drop!\""
+    },
+    {
+      "key": "Musician8FrontCardTime",
+      "value": "2 days ago"
+    },
+    {
+      "key": "Musician8FrontCardPlace",
+      "value": "Chicago,\nUSA"
+    },
+    {
+      "key": "Musician8FrontCardDate",
+      "value": "October 24, 1929\n20:38"
+    },
+    {
+      "key": "Musician8BackCard",
+      "value": "2 days ago\nChicago,\nUSA\nOctober 24, 1929\n20:38\n\n\"At least I respect you, BILL,\" says the little chubby man, wiping the blood off the paper knife. \"The trumpeter is leading us by the nose. Give me my money back or give him a good lesson. Let this be a lesson to everyone.\" He looks at Bill's fresh wound. \"You'll lose your eye next time.\""
+    },
+    {
+      "key": "Musician9FrontCardTime",
+      "value": "1 days ago"
+    },
+    {
+      "key": "Musician9FrontCardPlace",
+      "value": "The outskirts of Chicago,\nUSA"
+    },
+    {
+      "key": "Musician9FrontCardDate",
+      "value": "October 26, 1929\n17:18"
+    },
+    {
+      "key": "Musician9BackCard",
+      "value": "1 days ago\nThe outskirts of Chicago,\nUSA\nOctober 26, 1929\n17:18\n\n\"What did you do?!\" The young woman looks at the interlocutor and does not believe her eyes. \"Do you want me to die?\" HER eyes fill with tears. The young man hugs her and responds: \"I thought it was a good idea. You need money for Henry.\" He listens for a sound from the next ROOM."
+    },
+    {
+      "key": "Musician10FrontCardTime",
+      "value": "2 hours ago"
+    },
+    {
+      "key": "Musician10FrontCardPlace",
+      "value": "Chicago,\nUSA"
+    },
+    {
+      "key": "Musician10FrontCardDate",
+      "value": "October 26, 1929\n19:30"
+    },
+    {
+      "key": "Musician10BackCard",
+      "value": "2 hours ago\nChicago,\nUSA\nOctober 26, 1929\n19:30\n\nA young man looks in the mirror to make sure that his clothes are clean. His tailcoat is worn, his shoes are worn, but he is pleased with his appearance. He is startled by a knock on the DOOR, but calms down when he hears the voice of a member of the group."
+    },
+    {
+      "key": "Musician11FrontCardTime",
+      "value": "7 minutes ago"
+    },
+    {
+      "key": "Musician11FrontCardPlace",
+      "value": "Chicago,\nUSA"
+    },
+    {
+      "key": "Musician11FrontCardDate",
+      "value": "October 26, 1929\n21:25"
+    },
+    {
+      "key": "Musician11BackCard",
+      "value": "7 minutes ago\nChicago,\nUSA\nOctober 26, 1929\n21:25\n\nTwo burly men stand in front of the Blue Mill Bar. The taller one looks at his accomplice and asks: \"What's the plan, BILL?\""
+    },
+    {
+      "key": "Musician12FrontCardTime",
+      "value": "The moment of death"
+    },
+    {
+      "key": "Musician12FrontCardPlace",
+      "value": "Chicago,\nUSA"
+    },
+    {
+      "key": "Musician12FrontCardDate",
+      "value": "October 26, 1929\n21:32"
+    },
+    {
+      "key": "Musician12BackCard",
+      "value": "The moment of death\nChicago,\nUSA\nOctober 26, 1929\n21:32\n\nA man in his twenties lies lifeless on the cobblestones in a dirty blind alley. There are bullet holes in his blood-soaked shirt. His left hand clutches at his tie, as if he's trying to loosen it as life drains away. In his right hand is a teddy bear.\nThe blue neon sign of a nearby BAR flashes, making the blind alley look even darker."
+    },
+    {
+      "key": "Musician13FrontCardTime",
+      "value": "2 years later"
+    },
+    {
+      "key": "Musician13FrontCardPlace",
+      "value": "New York,\nUSA"
+    },
+    {
+      "key": "Musician13FrontCardDate",
+      "value": "October 24, 1931\n18:21"
+    },
+    {
+      "key": "Musician13BackCard",
+      "value": "2 years later\nNew York,\nUSA\nOctober 24, 1931\n18:21\n\nA young woman in her early twenties, dressed in black, walks past a newsstand. She is carrying a five-year-old child who has already become too heavy for her. She stops abruptly, takes a couple of steps back, and looks at the front page of the evening paper. \"That pig sent assassins to Jacques for 200$,\" she whispers, and looks at the PICTURE with hatred. Consumed by grief, she continues to walk towards the port."
+    },
+
+
+
+    {
+      "key": "MusicianStory1CardText",
+      "value": "20 years ago\nPoitiers,\nFrance\nFebruary 11, 1909\nlate evening\n\nA young woman, sobbing, embraces her children. The girl is crying, and the boy is looking at the floor. Suddenly, the mother opens her arms and looks at her son sternly. \"You're the man in the HOUSE now. Take responsibility and achieve something in life. Don't die like your father.\""
+    },
+    {
+      "key": "MusicianStory1CardQuestion",
+      "value": "You make sure that the boy:"
+    },
+    {
+      "key": "MusicianStory1CardAnswerA",
+      "value": "a) Hugs his sister"
+    },
+    {
+      "key": "MusicianStory1CardAnswerB",
+      "value": "b) Nods to his mother"
+    },
+    {
+      "key": "MusicianStory1CardAnswerC",
+      "value": "c) Gets angry, runs out of the room"
+    },
+    {
+      "key": "MusicianStory1CardHintText",
+      "value": "It's a small, squalid day laborer's hut. The draught is terrible."
+    },
+    {
+      "key": "MusicianStory2CardText",
+      "value": "17 years ago\nPoitiers,\nFrance\nJune 15, 1912\nevening\n\nBoys play soccer on the outskirts of the city. The older BOY stands on the edge and pushes the younger one. \"Hey, Jacques, wake up! You'll never be a musician. You'll fall off the roof like your father Henri. You'd better come with us at night and be on the lookout.\""
+    },
+    {
+      "key": "MusicianStory2CardQuestion",
+      "value": "You make sure that Jacques:"
+    },
+    {
+      "key": "MusicianStory2CardAnswerA",
+      "value": "a) Attacks the older boy"
+    },
+    {
+      "key": "MusicianStory2CardAnswerB",
+      "value": "b) Comes to be on the lookout"
+    },
+    {
+      "key": "MusicianStory2CardAnswerC",
+      "value": "c) Joins the game"
+    },
+    {
+      "key": "MusicianStory2CardHintText",
+      "value": "He maybe taller, but he doesn't look any stronger than the younger boy."
+    },
+    {
+      "key": "MusicianStory3CardText",
+      "value": "14 years ago\nLa Rochelle,\nFrance\nMay 12, 1915\nmorning\n\nAt the port, a teenager stands next to his sister, pointing at a huge CARGO SHIP. \"We need to sneak in there. Can you handle it?\" The pale girl holds on tightly to her brother. \"Don't worry,\" she whispers, \"Mom is watching us from heaven and will help us find a safe place.\""
+    },
+    {
+      "key": "MusicianStory3CardQuestion",
+      "value": "You make sure that:"
+    },
+    {
+      "key": "MusicianStory3CardAnswerA",
+      "value": "a) The boy says, \"Stay with your aunt. I'll go alone, and then you'll join me.\""
+    },
+    {
+      "key": "MusicianStory3CardAnswerB",
+      "value": "b) The sailor hides them on board"
+    },
+    {
+      "key": "MusicianStory3CardAnswerC",
+      "value": "c) The docker drives them away"
+    },
+    {
+      "key": "MusicianStory3CardHintText",
+      "value": "The ship sails to New York. The sea is surprisingly rough for this time of year."
+    },
+    {
+      "key": "MusicianStory4CardText",
+      "value": "12 years ago\nNew York,\nUSA\nSeptember 23, 1917\nin the evening\nin the room\n\nThe teenager takes the pale girl by the hand and insistently says to her: \"Marie, this can't go on. This air makes you feel worse and worse. They say they pay well in Chicago.\" She looks at him with compassion. \"But you like working here. People on the streets are already coming to listen to you.\" There's an old PHOTOGRAPH on the sideboard next to it."
+    },
+    {
+      "key": "MusicianStory4CardQuestion",
+      "value": "You make sure that:"
+    },
+    {
+      "key": "MusicianStory4CardAnswerA",
+      "value": "a) They decide to wait a little"
+    },
+    {
+      "key": "MusicianStory4CardAnswerB",
+      "value": "b) The girl persuades him to stay and follow his dream"
+    },
+    {
+      "key": "MusicianStory4CardAnswerC",
+      "value": "c) They decide to move together"
+    },
+    {
+      "key": "MusicianStory4CardHintText",
+      "value": "It depicts Poitiers, a city in western France. In the foreground, a married couple with a son and a young daughter can be seen."
+    },
+    {
+      "key": "MusicianStory5CardText",
+      "value": "2 weeks ago\nThe outskirts of Chicago,\nUSA\nOctober 12, 1929\n10:03\n\nA three-year-old CHILD is lying in a crib and coughing violently. His mother is standing in the doorway, talking to a young man.\n\"You've done so much for me. And then at home, and when Henry's father went missing. I can handle it myself.\" He shakes his head. \"Marie, it's okay. I'll get the money. Don't worry. He'll be fine soon.\" The child gives him a teddy bear and says, \"It will bring you good luck.\""
+    },
+    {
+      "key": "MusicianStory5CardQuestion",
+      "value": "You make sure that:"
+    },
+    {
+      "key": "MusicianStory5CardAnswerA",
+      "value": "a) She decides to do everything herself"
+    },
+    {
+      "key": "MusicianStory5CardAnswerB",
+      "value": "b) He decides to make money on alcohol smuggling"
+    },
+    {
+      "key": "MusicianStory5CardAnswerC",
+      "value": "c) He takes the bear and goes to the bar"
+    },
+    {
+      "key": "MusicianStory5CardHintText",
+      "value": "The doctor would have diagnosed whooping cough. The treatment will cost a lot."
+    },
+    {
+      "key": "MusicianStory6CardText",
+      "value": "5 days ago\nChicago,\nUSA\nOctober 21, 1929\n05:17\n\nA young man in a tailcoat and two other men are standing in a luxurious office. They are excited and tense. A small, plump MAN sits at a massive table and stares at them sternly. \"You didn't even complete this simple task? What am I going to do with you?\" He lights a cigarette. \"And you,\" he points to the young man, \" keep in mind that the money needs to be returned tomorrow... with interest, as always.\""
+    },
+    {
+      "key": "MusicianStory6CardQuestion",
+      "value": "You make sure that the young man:"
+    },
+    {
+      "key": "MusicianStory6CardAnswerA",
+      "value": "a) Laughs in the short man's face"
+    },
+    {
+      "key": "MusicianStory6CardAnswerB",
+      "value": "b) Nods softly"
+    },
+    {
+      "key": "MusicianStory6CardAnswerC",
+      "value": "c) Requests a delay of a few days"
+    },
+    {
+      "key": "MusicianStory6CardHintText",
+      "value": "This man - Alfonso Gabriel Capone is a brutal leader of the Chicago mafia."
+    },
+    {
+      "key": "MusicianStory7CardText",
+      "value": "3 days ago\nChicago,\nUSA\nOctober 23, 1929\n11:52\n\n\"It's a sure thing, Jacques. I'll invest your money, and it'll double in a few days. You'll pay off your debts!\" The man with the briefcase winks at the other man and glances at the ENVELOPE in his hands. \"Are you sure there's no risk?\" asks Jacques. The man smiles and nods. \"Not a drop!\""
+    },
+    {
+      "key": "MusicianStory7CardQuestion",
+      "value": "You make sure that Jacques:"
+    },
+    {
+      "key": "MusicianStory7CardAnswerA",
+      "value": "a) Passes the envelope and all his money"
+    },
+    {
+      "key": "MusicianStory7CardAnswerB",
+      "value": "b) Passes the envelope"
+    },
+    {
+      "key": "MusicianStory7CardAnswerC",
+      "value": "c) Rejects the offer and gives nothing away"
+    },
+    {
+      "key": "MusicianStory7CardHintText",
+      "value": "The envelope is marked \"A. G. K.\". It contains$ 200 in brand-new ten-dollar bills."
+    },
+    {
+      "key": "MusicianStory8CardText",
+      "value": "2 days ago\nChicago,\nUSA\nOctober 24, 1929\n20:38\n\n\"At least I respect you, BILL,\" says the little chubby man, wiping the blood off the paper knife. \"The trumpeter is leading us by the nose. Give me my money back or give him a good lesson. Let this be a lesson to everyone.\" He looks at Bill's fresh wound. \"You'll lose your eye next time.\""
+    },
+    {
+      "key": "MusicianStory8CardQuestion",
+      "value": "You make sure that Bill responds:"
+    },
+    {
+      "key": "MusicianStory8CardAnswerA",
+      "value": "a) \"Of course, boss. I can handle it.\""
+    },
+    {
+      "key": "MusicianStory8CardAnswerB",
+      "value": "b) \"I'm leaving, boss. I won't do it.\""
+    },
+    {
+      "key": "MusicianStory8CardAnswerC",
+      "value": "c) \"Boss, I'm sure he'll get the money next month.\""
+    },
+    {
+      "key": "MusicianStory8CardHintText",
+      "value": "Bill wipes the blood from his cheek with a handkerchief. He is Al Capone's most loyal and persistent henchman."
+    },
+    {
+      "key": "MusicianStory9CardText",
+      "value": "1 days ago\nThe outskirts of Chicago,\nUSA\nOctober 26, 1929\n17:18\n\n\"What did you do?!\" The young woman looks at the interlocutor and does not believe her eyes. \"Do you want me to die?\" HER eyes fill with tears. The young man hugs her and responds: \"I thought it was a good idea. You need money for Henry.\" He listens for a sound from the next ROOM."
+    },
+    {
+      "key": "MusicianStory9CardQuestion",
+      "value": "You make sure that the young woman:"
+    },
+    {
+      "key": "MusicianStory9CardAnswerA",
+      "value": "a) Clearly says that he should go to a meeting in the city right now"
+    },
+    {
+      "key": "MusicianStory9CardAnswerB",
+      "value": "b) Goes to the next room"
+    },
+    {
+      "key": "MusicianStory9CardAnswerC",
+      "value": "c) Takes her coat and goes to a meeting in the city"
+    },
+    {
+      "key": "MusicianStory9CardHintText",
+      "value": "A child plays with cubes. His incessant coughing is clearly audible through the door."
+    },
+    {
+      "key": "MusicianStory10CardText",
+      "value": "2 hours ago\nChicago,\nUSA\nOctober 26, 1929\n19:30\n\nA young man looks in the mirror to make sure that his clothes are clean. His tailcoat is worn, his shoes are worn, but he is pleased with his appearance. He is startled by a knock on the DOOR, but calms down when he hears the voice of a member of the group."
+    },
+    {
+      "key": "MusicianStory10CardQuestion",
+      "value": "You make sure that the man:"
+    },
+    {
+      "key": "MusicianStory10CardAnswerA",
+      "value": "a) Opens the door and happily offers: \"Let's switch instruments today.\""
+    },
+    {
+      "key": "MusicianStory10CardAnswerB",
+      "value": "b) Shouts: \"Wait a minute!\""
+    },
+    {
+      "key": "MusicianStory10CardAnswerC",
+      "value": "c) Opens the door and says wearily: \"I'm not going to play. I feel bad.\""
+    },
+    {
+      "key": "MusicianStory10CardHintText",
+      "value": "The pipe he has prepared is next to the door. But the man in the tailcoat is also good at playing other instruments."
+    },
+    {
+      "key": "MusicianStory11CardText",
+      "value": "7 minutes ago\nChicago,\nUSA\nOctober 26, 1929\n21:25\n\nTwo burly men stand in front of the Blue Mill Bar. The taller one looks at his accomplice and asks: \"What's the plan, BILL?\""
+    },
+    {
+      "key": "MusicianStory11CardQuestion",
+      "value": "You make sure that Bill responds:"
+    },
+    {
+      "key": "MusicianStory11CardAnswerA",
+      "value": "a) \"As usual: I'll take the main entrance, and you go to the back.\""
+    },
+    {
+      "key": "MusicianStory11CardAnswerB",
+      "value": "b) \"I'll go inside. And you stay on the lookout.\""
+    },
+    {
+      "key": "MusicianStory11CardAnswerC",
+      "value": "c) \"Let's go through the back entrance. Hold on to me.\""
+    },
+    {
+      "key": "MusicianStory11CardHintText",
+      "value": "There's a fresh cut on Bill's cheek. So the boss warned him against making more mistakes."
+    },
+    {
+      "key": "MusicianStory12CardText",
+      "value": "The moment of death\nChicago,\nUSA\nOctober 26, 1929\n21:32\n\nA man in his twenties lies lifeless on the cobblestones in a dirty blind alley. There are bullet holes in his blood-soaked shirt. His left hand clutches at his tie, as if he's trying to loosen it as life drains away. In his right hand is a teddy bear.\nThe blue neon sign of a nearby BAR flashes, making the blind alley look even darker."
+    },
+    {
+      "key": "MusicianStory12CardHintText",
+      "value": "Loud jazz sounds come from the entrance to the bar. The group ignores all the solos on the trumpet."
+    },
+    {
+      "key": "MusicianStory13CardText",
+      "value": "2 years later\nNew York,\nUSA\nOctober 24, 1931\n18:21\n\nA young woman in her early twenties, dressed in black, walks past a newsstand. She is carrying a five-year-old child who has already become too heavy for her. She stops abruptly, takes a couple of steps back, and looks at the front page of the evening paper. \"That pig sent assassins to Jacques for 200$,\" she whispers, and looks at the PICTURE with hatred. Consumed by grief, she continues to walk towards the port."
+    },
+    {
+      "key": "MusicianStory13CardEventsAfterDeath",
+      "value": "Since these events take place after the death of the deceased, your actions here, unfortunately, will not change anything."
+    },
+    {
+      "key": "MusicianStory13CardHintText",
+      "value": "The photo shows Al Capone - the most famous gangster of this time."
+    },
+    {
+      "key": "MusicianFullStoryText",
+      "value": "The deceased, named Jacques, was born in Poitiers, France. Due to the sudden death of his father Henri, he had to take responsibility for his younger sister Marie. When their mother died and the First World War broke out, the responsibility only increased.\nHis mother's injunction not to die in obscurity haunted him, and Jacques aspired to become a famous musician.\nFleeing the war, the orphans arrived in New York. But Jacques' sister, who was already in poor health, was only getting worse there. So they decided to start all over again in the suburbs of Chicago.\nThere, Marie gave birth to a son named Henry. After the child's father left her, Jacques realized that he would again have to take responsibility for his sister and nephew. But fate turned out to be cruel to them, and the child fell ill with whooping cough, a disease for which there was no cure until the vaccination was announced in 1933.\nJacques borrowed money for Henry's treatment from the mafia. He had to do a job for Al Capone to pay back the debt. But something went wrong and the mafia boss demanded to return the money with a large percentage. To earn them, Jacques asked a friend to invest money profitably-just a day before Black Thursday, a catostrophic drop in stock prices.\nAl Capone wasn't going to wait any longer for a refund. He sent his henchmen, who shot and killed Jacques, who tried to escape through the back entrance of the bar."
+    },
+    {
+      "key": "MusicianImportantDecisionsText",
+      "value": "Important decisions:\n2 weeks ago - a: Since Marie decided to take control, Jacques didn't have to borrow money from Al Capone.\n2 days ago - с: Since Bill asked for an extension, Jacques was able to honestly give at least some of the money.\n2 hours ago - a: Al Capone's henchmen shot a trumpeter. Since Jacques had taken another tool, he had a chance to escape.\n7 minutes ago - b: Bill and his accomplice did not guard the back entrance, and so Jacques was able to escape from the bar unnoticed."
+    }
+  ]
+}
